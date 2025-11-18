@@ -5,7 +5,8 @@
 # Internet of Mini-Mini Platforms — PURPOSE & RULES
 # ===============================================
 PURPOSE
-Create one single orbital factory (or a dormant network of Starship tankers that can be activated in <90 days) that begins mass-producing $100–150/person, backpack-portable, fully-inflatable, gravity-fed, indefinite-life-support kits capable of sustaining every human on Mars indefinitely using only Martian CO₂, water-ice, sunlight, and gravity after sol 60.
+[purpose]
+Create one single orbital factory (or a dormant network of Starship tankers that can be activated in under 90 days) that begins mass-producing $100–150/person, backpack-portable, fully-inflatable, gravity-fed, indefinite-life-support kits capable of sustaining every human on Mars indefinitely using only Martian CO₂, water-ice, sunlight, and gravity after sol 60.
 Kits are pre-landed with every uncrewed cargo flight starting 2031.
 Success = No human on Mars ever dies of starvation, dehydration, or O₂ depletion — no matter how many ships are lost or how long Earth comms are down.
 Total cost for 1 million humans < cost of three orbital refueling flights.
@@ -35,7 +36,7 @@ civilian_owned_kits_can_be_requisitioned_by_mars_council_in_emergency
 economic_viability_in_normal_times_is_required_for_resilience_in_crisis
 export_of_digital_ip_pays_for_hardware_in_peacetime
 perchlorate_soil_can_be_washed_with_2_percent_water
-radiation_dose_on_surface_0.7_msv_per_sol_shielded_by_regolith_or_water
+radiation_dose_on_surface_0_7_msv_per_sol_shielded_by_regolith_or_water
 synodic_period_26_months_determines_launch_windows
 starship_heat_shield_reusable_after_mars_entry
 mars_surface_temperature_minus_60c_average
