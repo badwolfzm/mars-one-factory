@@ -1,0 +1,29 @@
+{
+  "drivers_patterns": [
+    "(?:(?:transform(?:[\\s_\\-/]+)israel))",
+    "(?:(?:israel(?:[\\s_\\-/]+)ethical))",
+    "(?:(?:ethical(?:[\\s_\\-/]+)export))",
+    "(?:(?:export(?:[\\s_\\-/]+)first))",
+    "(?:(?:first(?:[\\s_\\-/]+)powerhouse))",
+    "(?:(?:powerhouse(?:[\\s_\\-/]+)20352040))",
+    "(?:mini)",
+    "(?:transform)",
+    "(?:israel)",
+    "(?:ethical)",
+    "(?:export)",
+    "(?:first)",
+    "(?:powerhouse)",
+    "(?:20352040)",
+    "(?:through)",
+    "(?:internet)",
+    "(?:platforms)",
+    "(?:modular)"
+  ],
+  "blockers_patterns": [],
+  "steps": [],
+  "cost_model": {},
+  "include_only_patterns": [
+    "(?:(?:transform(?:[\\s_\\-/]+)israel)|(?:israel(?:[\\s_\\-/]+)ethical)|(?:ethical(?:[\\s_\\-/]+)export)|(?:export(?:[\\s_\\-/]+)first)|(?:first(?:[\\s_\\-/]+)powerhouse)|(?:powerhouse(?:[\\s_\\-/]+)20352040)|mini|transform|israel|ethical|export|first|powerhouse|20352040|through|internet|platforms|modular)"
+  ],
+  "exclude_patterns": []
+}
