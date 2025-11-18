@@ -1,0 +1,1709 @@
+# Axiomatic Plan
+
+## Purpose / Summary
+PURPOSE
+Create one single orbital factory (or a dormant network of Starship tankers that can be activated in <90 days) that begins mass-producing $100–150/person, backpack-portable, fully-inflatable, gravity-fed, indefinite-life-support kits capable of sustaining every human on Mars indefinitely using only Martian CO₂, water-ice, sunlight, and gravity after sol 60.
+Kits are pre-landed with every uncrewed cargo flight starting 2031.
+Success = No human on Mars ever dies of starvation, dehydration, or O₂ depletion — no matter how many ships are lost or how long Earth comms are down.
+Total cost for 1 million humans < cost of three orbital refueling flights.
+
+## Drivers & Blockers
+**Drivers:** 48v_dc_is_the_safest_most_modular_power_spine_for_resilient_infrastructure (1), 48v_standard_parts_minimize_adapter_costs (1), agents_automate_administration (1), agtech_has_export_potential (1), axiomatic_platforms_support_rule_based_growth (1), capex_minimization_increases_runway (1), containerized_modules_enable_portability_microfactories_enable_export (1), create_one_single_factory_or_a_dormant_network_of_existing_factories_that_can_be_switched_in_45_days_that_can_the_moment_the_war_start-of-collapse_begins_begin_mass-producing_ultra-cheap_400_600_per_person_backpack-portable_fully-inflatable_gravity-fed_indefinite-food-and-water_kits_capable_of_sustaining_every_single_person_in_israel_indefinitely_using_only_sun_air_and_gravity_after_day_60. (1), digital_ip_enables_remote_export (1), digital_ip_enables_remote_export_documentation_enables_hand_off (1)
+**Blockers:** —
+
+## Steps
+### 1. First-Principles Decomposition
+*Why:* Convert axioms/truths into testable, measurable work units.
+
+**Actions**
+- Decompose `starship_block_2_payload_to_mars_150_tons_minimum` into measurable sub-goals and experiments.
+- Decompose `starship_block_2_reusable_2030` into measurable sub-goals and experiments.
+- Decompose `orbital_refueling_demonstrated_2028` into measurable sub-goals and experiments.
+- Decompose `methane_isru_producible_at_20_tons_per_synod_with_100_kw` into measurable sub-goals and experiments.
+- Decompose `martian_co2_is_95_percent_of_atmosphere` into measurable sub-goals and experiments.
+- Decompose `martian_water_ice_abundant_below_40cm_in_arcadia_planitia` into measurable sub-goals and experiments.
+- Decompose `drop_stitch_fabric_already_flown_on_starship_ifx_2024` into measurable sub-goals and experiments.
+- Decompose `one_starship_tanker_can_be_converted_to_heat_sealing_factory_in_orbit` into measurable sub-goals and experiments.
+- Decompose `one_40_station_heat_sealing_line_produces_5000_kits_per_26_month_window` into measurable sub-goals and experiments.
+- Decompose `rolled_up_25_person_kit_mass_under_35kg_fits_in_starship_cargo_grid` into measurable sub-goals and experiments.
+- Decompose `inflation_with_martian_co2_in_under_5_minutes_using_rover_compressor` into measurable sub-goals and experiments.
+- Decompose `72_m2_nft_growing_area_sufficient_for_25_humans_3000_kcal_protein_complete` into measurable sub-goals and experiments.
+- Decompose `closed_loop_water_recovery_greater_than_98_percent_with_rh_condensers` into measurable sub-goals and experiments.
+- Decompose `awg_cores_from_scrap_starship_chiller_units` into measurable sub-goals and experiments.
+- Decompose `gravity_feed_eliminates_all_electric_pumps_except_15w_air_lift_blower` into measurable sub-goals and experiments.
+- Decompose `15w_solar_blower_sufficient_for_air_lift_circulation_and_co2_intake` into measurable sub-goals and experiments.
+- Decompose `martian_solar_insolation_590_w_m2_at_equator_noon` into measurable sub-goals and experiments.
+- Decompose `duckweed_doubles_biomass_in_48_hours_under_mars_light` into measurable sub-goals and experiments.
+- Decompose `black_soldier_fly_larvae_convert_food_waste_to_protein_at_20_percent_efficiency` into measurable sub-goals and experiments.
+- Decompose `pre_positioning_in_uncrewed_cargo_is_cheaper_than_just_in_time_delivery` into measurable sub-goals and experiments.
+- Decompose `civilian_owned_kits_can_be_requisitioned_by_mars_council_in_emergency` into measurable sub-goals and experiments.
+- Decompose `economic_viability_in_normal_times_is_required_for_resilience_in_crisis` into measurable sub-goals and experiments.
+- Decompose `export_of_digital_ip_pays_for_hardware_in_peacetime` into measurable sub-goals and experiments.
+- Decompose `perchlorate_soil_can_be_washed_with_2_percent_water` into measurable sub-goals and experiments.
+- Decompose `radiation_dose_on_surface_0.7_msv_per_sol_shielded_by_regolith_or_water` into measurable sub-goals and experiments.
+- Decompose `synodic_period_26_months_determines_launch_windows` into measurable sub-goals and experiments.
+- Decompose `starship_heat_shield_reusable_after_mars_entry` into measurable sub-goals and experiments.
+- Decompose `mars_surface_temperature_minus_60c_average` into measurable sub-goals and experiments.
+- Decompose `one_mars_year_equals_668_sols_axioms` into measurable sub-goals and experiments.
+- Decompose `small_town_scale_is_easier_to_coordinate_than_national_scale` into measurable sub-goals and experiments.
+- Decompose `resilience_requires_local_control_of_water_energy_food_repair_and_comms` into measurable sub-goals and experiments.
+- Decompose `48v_dc_is_the_safest_most_modular_power_spine_for_resilient_infrastructure` into measurable sub-goals and experiments.
+- Decompose `microfactories_and_repair_hubs_are_core_to_self_sufficiency` into measurable sub-goals and experiments.
+- Decompose `dense_skill_mesh_is_more_important_than_single_genius` into measurable sub-goals and experiments.
+- Decompose `israeli_handasai_certificates_are_fast_paths_to_applied_technical_skill` into measurable sub-goals and experiments.
+- Decompose `academic_engineering_degree_is_optional_for_resilience_but_practical_skills_are_not` into measurable sub-goals and experiments.
+- Decompose `knowledge_must_exist_in_printed_and_offline_forms_not_only_in_the_cloud` into measurable sub-goals and experiments.
+- Decompose `every_critical_system_must_have_a_manual_blackout_mode` into measurable sub-goals and experiments.
+- Decompose `redundancy_and_modularity_reduce_system_fragility` into measurable sub-goals and experiments.
+- Decompose `ethical_and_transparent_governance_is_required_for_long_term_stability` into measurable sub-goals and experiments.
+- Decompose `town_must_be_able_to_help_neighbors_not_only_itself` into measurable sub-goals and experiments.
+- Decompose `learning_is_continuous_not_one_time_event` into measurable sub-goals and experiments.
+- Decompose `cross_discipline_understanding_prevents_single_point_of_failure_in_people` into measurable sub-goals and experiments.
+- Decompose `updated_axiomatic_plan_one_factory_feeds_israel` into measurable sub-goals and experiments.
+- Decompose `new_purpose_final_locked` into measurable sub-goals and experiments.
+- Decompose `create_one_single_factory_or_a_dormant_network_of_existing_factories_that_can_be_switched_in_45_days_that_can_the_moment_the_war_start-of-collapse_begins_begin_mass-producing_ultra-cheap_400_600_per_person_backpack-portable_fully-inflatable_gravity-fed_indefinite-food-and-water_kits_capable_of_sustaining_every_single_person_in_israel_indefinitely_using_only_sun_air_and_gravity_after_day_60.` into measurable sub-goals and experiments.
+- Decompose `the_kits_will_be_pre-positioned_or_air-droppable_so_that_within_72_hours_of_the_factory_switch-on_every_family_moshav_yishuv_unit_can_have_sustainable_food_water_security_forever_at_a_total_national_cost_lower_than_one_iron_dome_battery.` into measurable sub-goals and experiments.
+- Decompose `success_israel_never_again_has_empty_supermarkets_or_water_shortages_no_matter_how_long_the_war_or_blockade_lasts.` into measurable sub-goals and experiments.
+- Decompose `core_axioms_all_true_as_of_november_2025` into measurable sub-goals and experiments.
+- Decompose `` into measurable sub-goals and experiments.
+- Decompose `when_any_drop_stitch_inflatable_technology_is_already_mass_produced` into measurable sub-goals and experiments.
+- Decompose `emit_use_only_standard_chinese_drop-stitch_tpu_film_0.8_1.0_mm_1100_dtex_no_custom_materials_no_r_d_dead_end.` into measurable sub-goals and experiments.
+- Decompose `when_any_gravity_plus_air_lift_pump_is_enough` into measurable sub-goals and experiments.
+- Decompose `emit_eliminate_every_electric_pump_except_one_15_20_w_solar_air_blower._the_entire_water_nutrient_loop_must_run_on_air-lift_gravity_only.` into measurable sub-goals and experiments.
+- Decompose `when_any_dead_air_conditioner_condensers_are_identical_to_awg_cores` into measurable sub-goals and experiments.
+- Decompose `emit_design_the_starter_awg_blower_combo_device_to_be_rebuilt_from_scrapped_outdoor_ac_units_tadiran_electra_graveyards_are_the_raw_material_source.` into measurable sub-goals and experiments.
+- Decompose `when_any_one_factory_with_40_heat_sealing_stations_can_produce_1200_kits_per_day` into measurable sub-goals and experiments.
+- Decompose `emit_factory_layout_one_3000_m²_shed_40_sealing_tables_10_cutting_tables_10_workers_per_shift_-_1200_1500_kits_day_on_two_shifts._that_is_1_million_people_fed_in_40_days.` into measurable sub-goals and experiments.
+- Decompose `when_any_total_material_cost_at_100000_units_per_year_is_under_450_600_nis_per_person` into measurable sub-goals and experiments.
+- Decompose `emit_target_landed_cost_550_per_person_including_profit_margin._anything_above_that_is_failure.` into measurable sub-goals and experiments.
+- Decompose `when_any_every_moshav_factory_roof_is_a_potential_pre_position_point` into measurable sub-goals and experiments.
+- Decompose `emit_pre-sell_and_pre-position_20000_50000_kits_in_200_moshavim_factories_now_2026_prices_._when_war_starts_the_rest_of_the_country_drives_there_and_takes_their_kit.` into measurable sub-goals and experiments.
+- Decompose `when_any_this_is_cheaper_than_one_iron_dome_interceptor` into measurable sub-goals and experiments.
+- Decompose `emit_pitch_to_government_philanthropists_one_iron_dome_battery_2_billion_food_water_forever_for_1.5_2_million_israelis._choose.` into measurable sub-goals and experiments.
+- Decompose `drop_stitch_inflatable_technology_is_already_mass_produced_at_under_20_nis_per_m2_in_china_and_used_for_pool_toys` into measurable sub-goals and experiments.
+- Decompose `the_exact_same_drop_stitch_fabric_can_be_made_rigid_enough_for_fish_tanks_and_nft_channels` into measurable sub-goals and experiments.
+- Decompose `gravity_plus_air_lift_pump_is_enough_to_run_aquaponics_forever_with_only_15w_solar` into measurable sub-goals and experiments.
+- Decompose `dead_air_conditioner_condensers_are_identical_to_atmospheric_water_generator_cores` into measurable sub-goals and experiments.
+- Decompose `israel_has_150000_plus_dead_ac_units_sitting_in_yards_right_now` into measurable sub-goals and experiments.
+- Decompose `one_factory_with_40_heat_sealing_stations_can_produce_1200_complete_kits_per_day` into measurable sub-goals and experiments.
+- Decompose `existing_sup_factories_in_china_can_ship_100000_rolls_per_month_at_under_8_nis_per_m2` into measurable sub-goals and experiments.
+- Decompose `local_israeli_plastic_factories_polybid_plazit_gav_yam_can_switch_to_this_fabric_in_weeks` into measurable sub-goals and experiments.
+- Decompose `one_rolled_up_25_person_kit_weighs_under_35kg_and_fits_in_an_ikea_bag` into measurable sub-goals and experiments.
+- Decompose `the_kit_can_be_inflated_by_any_leaf_blower_or_car_tire_pump_in_under_40_seconds` into measurable sub-goals and experiments.
+- Decompose `after_initial_fill_the_system_is_closed_loop_forever_no_electricity_no_water_input_needed` into measurable sub-goals and experiments.
+- Decompose `72_m2_growing_area_inflated_is_enough_for_25_people_3000kcal_plus_full_protein_daily` into measurable sub-goals and experiments.
+- Decompose `total_material_cost_at_100000_units_per_year_is_under_450_600_nis_per_person` into measurable sub-goals and experiments.
+- Decompose `the_factory_requires_zero_new_building_just_rent_an_empty_chicken_coop_and_buy_sealing_machines` into measurable sub-goals and experiments.
+- Decompose `every_moshav_factory_roof_and_parking_lot_in_israel_is_a_potential_pre_position_point` into measurable sub-goals and experiments.
+- Decompose `the_state_will_pay_forced_requisition_the_factory_in_war_and_run_it_24_7_so_we_must_make_it_civilian_owned_and_pre_stocked` into measurable sub-goals and experiments.
+- Decompose `this_is_cheaper_per_person_than_one_iron_dome_interceptor_and_it_never_runs_out` into measurable sub-goals and experiments.
+- Decompose `economic_power_requires_efficiency` into measurable sub-goals and experiments.
+- Decompose `economic_power_requires_scalability` into measurable sub-goals and experiments.
+- Decompose `economic_power_requires_export_value` into measurable sub-goals and experiments.
+- Decompose `economic_power_requires_investment` into measurable sub-goals and experiments.
+- Decompose `economic_channels_enable_resilience` into measurable sub-goals and experiments.
+- Decompose `economic_resilience_attracts_investment` into measurable sub-goals and experiments.
+- Decompose `modularity_enables_scalability` into measurable sub-goals and experiments.
+- Decompose `standardization_reduces_complexity` into measurable sub-goals and experiments.
+- Decompose `standardization_enables_interoperability` into measurable sub-goals and experiments.
+- Decompose `axiomatic_systems_reduce_cognitive_cost` into measurable sub-goals and experiments.
+- Decompose `low_cognitive_cost_enables_mass_adoption` into measurable sub-goals and experiments.
+- Decompose `mass_adoption_increases_market_volume` into measurable sub-goals and experiments.
+- Decompose `market_volume_enables_global_leverage` into measurable sub-goals and experiments.
+- Decompose `local_innovation_drives_export_value` into measurable sub-goals and experiments.
+- Decompose `mini_platforms_are_modular` into measurable sub-goals and experiments.
+- Decompose `mini_platforms_reduce_entry_barriers` into measurable sub-goals and experiments.
+- Decompose `mini_platforms_create_new_economic_channels` into measurable sub-goals and experiments.
+- Decompose `rule_based_growth_is_scalable` into measurable sub-goals and experiments.
+- Decompose `axiomatic_platforms_support_rule_based_growth` into measurable sub-goals and experiments.
+- Decompose `scalable_growth_leads_to_economic_power` into measurable sub-goals and experiments.
+- Decompose `israel_can_build_axiomatic_mini_platforms` into measurable sub-goals and experiments.
+- Decompose `adhd_requires_low_context_switching_systems` into measurable sub-goals and experiments.
+- Decompose `adhd_benefits_from_checklists_and_visuals` into measurable sub-goals and experiments.
+- Decompose `adhd_benefits_from_automations_and_defaults` into measurable sub-goals and experiments.
+- Decompose `few_workflows_reduce_errors` into measurable sub-goals and experiments.
+- Decompose `single_point_of_truth_reduces_rework` into measurable sub-goals and experiments.
+- Decompose `48v_dc_bus_standardizes_power` into measurable sub-goals and experiments.
+- Decompose `48v_standard_parts_minimize_adapter_costs` into measurable sub-goals and experiments.
+- Decompose `industrial_base_requires_power` into measurable sub-goals and experiments.
+- Decompose `offgrid_energy_enables_resilience` into measurable sub-goals and experiments.
+- Decompose `energy_density_constraints_require_sizing` into measurable sub-goals and experiments.
+- Decompose `genset_provides_firm_power` into measurable sub-goals and experiments.
+- Decompose `battery_salvage_enables_low_capex` into measurable sub-goals and experiments.
+- Decompose `lithium_lifepo4_is_safe_and_durable_if_managed` into measurable sub-goals and experiments.
+- Decompose `solar_pv_is_decreasing_in_cost` into measurable sub-goals and experiments.
+- Decompose `wind_mini_turbines_are_site_specific` into measurable sub-goals and experiments.
+- Decompose `mppt_increases_pv_harvest` into measurable sub-goals and experiments.
+- Decompose `dc_dc_buck_modules_enable_voltage_ecosystem` into measurable sub-goals and experiments.
+- Decompose `shunt_metering_enables_energy_accounting` into measurable sub-goals and experiments.
+- Decompose `lockout_tagout_prevents_injury` into measurable sub-goals and experiments.
+- Decompose `thermal_runaway_requires_enclosure_and_venting` into measurable sub-goals and experiments.
+- Decompose `cable_gauge_must_match_current` into measurable sub-goals and experiments.
+- Decompose `surge_protection_reduces_failure_rate` into measurable sub-goals and experiments.
+- Decompose `grounding_and_bonding_increase_safety` into measurable sub-goals and experiments.
+- Decompose `industrial_base_requires_water` into measurable sub-goals and experiments.
+- Decompose `water_storage_increases_resilience` into measurable sub-goals and experiments.
+- Decompose `sediment_and_carbon_filtration_handle_particulates_and_taste` into measurable sub-goals and experiments.
+- Decompose `reverse_osmosis_enables_desalination` into measurable sub-goals and experiments.
+- Decompose `greywater_reuse_reduces_consumption` into measurable sub-goals and experiments.
+- Decompose `bilge_and_deck_drainage_are_critical_at_sea` into measurable sub-goals and experiments.
+- Decompose `pumps_should_match_voltage_ecosystem` into measurable sub-goals and experiments.
+- Decompose `freshwater_generation_enables_independence` into measurable sub-goals and experiments.
+- Decompose `industrial_base_requires_fabrication` into measurable sub-goals and experiments.
+- Decompose `industrial_base_requires_storage` into measurable sub-goals and experiments.
+- Decompose `tooling_standardization_reduces_costs` into measurable sub-goals and experiments.
+- Decompose `containerized_modules_enable_portability` into measurable sub-goals and experiments.
+- Decompose `jigs_enable_repeatability` into measurable sub-goals and experiments.
+- Decompose `shadow_boards_reduce_tool_search_time` into measurable sub-goals and experiments.
+- Decompose `three_d_printing_enables_fast_prototyping` into measurable sub-goals and experiments.
+- Decompose `cnc_router_enables_flatstock_products` into measurable sub-goals and experiments.
+- Decompose `inverter_welder_enables_light_fab` into measurable sub-goals and experiments.
+- Decompose `angle_grinder_is_basic_but_powerful` into measurable sub-goals and experiments.
+- Decompose `drill_press_improves_precision` into measurable sub-goals and experiments.
+- Decompose `ee_bench_enables_troubleshooting` into measurable sub-goals and experiments.
+- Decompose `calibration_reduces_variance` into measurable sub-goals and experiments.
+- Decompose `quality_control_reduces_returns` into measurable sub-goals and experiments.
+- Decompose `sku_libraries_enable_scale` into measurable sub-goals and experiments.
+- Decompose `recycling_enables_material_supply` into measurable sub-goals and experiments.
+- Decompose `salvage_parts_reduce_capex` into measurable sub-goals and experiments.
+- Decompose `scrap_sorting_increases_yield` into measurable sub-goals and experiments.
+- Decompose `copper_and_aluminum_have_liquid_markets` into measurable sub-goals and experiments.
+- Decompose `cells_and_ups_salvage_can_seed_power_systems` into measurable sub-goals and experiments.
+- Decompose `price_sheets_enable_fast_buy_sell` into measurable sub-goals and experiments.
+- Decompose `digital_ip_enables_remote_export` into measurable sub-goals and experiments.
+- Decompose `content_production_scales_with_templates` into measurable sub-goals and experiments.
+- Decompose `recording_workflows_enable_courseware` into measurable sub-goals and experiments.
+- Decompose `documentation_enables_hand_off` into measurable sub-goals and experiments.
+- Decompose `ticketing_enables_accountability` into measurable sub-goals and experiments.
+- Decompose `inventory_tracking_prevents_stockouts` into measurable sub-goals and experiments.
+- Decompose `agents_automate_administration` into measurable sub-goals and experiments.
+- Decompose `pricing_pages_reduce_quote_latency` into measurable sub-goals and experiments.
+- Decompose `dsl_based_checklists_improve_consistency` into measurable sub-goals and experiments.
+- Decompose `version_control_enables_rollback` into measurable sub-goals and experiments.
+- Decompose `ops_telemetry_enables_alerting` into measurable sub-goals and experiments.
+- Decompose `secret_base_prefers_mobility` into measurable sub-goals and experiments.
+- Decompose `prefer_maritime_base` into measurable sub-goals and experiments.
+- Decompose `maritime_platform_enables_mobility` into measurable sub-goals and experiments.
+- Decompose `mobility_enables_stealth` into measurable sub-goals and experiments.
+- Decompose `low_signature_operations_reduce_detection` into measurable sub-goals and experiments.
+- Decompose `salvage_market_provides_low_cost_hulls` into measurable sub-goals and experiments.
+- Decompose `diy_pontoons_enable_ultra_low_cost_float` into measurable sub-goals and experiments.
+- Decompose `mooring_fees_are_repeating_costs` into measurable sub-goals and experiments.
+- Decompose `corrosion_is_continuous_in_marine_env` into measurable sub-goals and experiments.
+- Decompose `nav_rules_compliance_reduces_risk` into measurable sub-goals and experiments.
+- Decompose `anchoring_knowledge_increases_safety` into measurable sub-goals and experiments.
+- Decompose `beam_and_buoyancy_set_deck_payload` into measurable sub-goals and experiments.
+- Decompose `draft_limits_harbor_access` into measurable sub-goals and experiments.
+- Decompose `algae_production_enables_food_and_income` into measurable sub-goals and experiments.
+- Decompose `aquaponics_can_stack_with_microfactories` into measurable sub-goals and experiments.
+- Decompose `nutrients_supply_chain_must_be_secured` into measurable sub-goals and experiments.
+- Decompose `food_handlers_permits_may_be_required` into measurable sub-goals and experiments.
+- Decompose `bio_safety_protocols_reduce_contamination` into measurable sub-goals and experiments.
+- Decompose `microcredentials_enable_skill_compounding` into measurable sub-goals and experiments.
+- Decompose `apprenticeship_accelerates_capability` into measurable sub-goals and experiments.
+- Decompose `axiomatic_curricula_reduce_time_to_mastery` into measurable sub-goals and experiments.
+- Decompose `hands_on_labs_enable_confidence` into measurable sub-goals and experiments.
+- Decompose `stackable_credentials_enable_career_ladders` into measurable sub-goals and experiments.
+- Decompose `remote_courses_reduce_travel_time` into measurable sub-goals and experiments.
+- Decompose `portfolio_proves_competence_better_than_cv` into measurable sub-goals and experiments.
+- Decompose `compliance_reduces_legal_risk` into measurable sub-goals and experiments.
+- Decompose `business_registration_enables_contracting` into measurable sub-goals and experiments.
+- Decompose `vat_registration_required_above_threshold` into measurable sub-goals and experiments.
+- Decompose `import_export_docs_require_accuracy` into measurable sub-goals and experiments.
+- Decompose `ppe_reduces_injury` into measurable sub-goals and experiments.
+- Decompose `fire_suppression_is_mandatory` into measurable sub-goals and experiments.
+- Decompose `co_and_fire_alarms_save_lives` into measurable sub-goals and experiments.
+- Decompose `insurance_mitigates_tail_risks_at_cost` into measurable sub-goals and experiments.
+- Decompose `data_protection_is_customer_trust` into measurable sub-goals and experiments.
+- Decompose `food_safety_requires_hygiene_controls` into measurable sub-goals and experiments.
+- Decompose `electrical_code_compliance_reduces_fire_risk` into measurable sub-goals and experiments.
+- Decompose `low_capital_requires_bootstrapping` into measurable sub-goals and experiments.
+- Decompose `bootstrapping_requires_early_revenue` into measurable sub-goals and experiments.
+- Decompose `service_offerings_have_short_sales_cycles` into measurable sub-goals and experiments.
+- Decompose `repair_services_generate_cashflow` into measurable sub-goals and experiments.
+- Decompose `capex_minimization_increases_runway` into measurable sub-goals and experiments.
+- Decompose `opex_minimization_increases_resilience` into measurable sub-goals and experiments.
+- Decompose `secondhand_tools_reduce_capex` into measurable sub-goals and experiments.
+- Decompose `bulk_buys_reduce_unit_costs` into measurable sub-goals and experiments.
+- Decompose `local_vendors_reduce_lead_times` into measurable sub-goals and experiments.
+- Decompose `currency_is_nis` into measurable sub-goals and experiments.
+- Decompose `price_sensitivity_requires_tiers` into measurable sub-goals and experiments.
+- Decompose `cost_transparency_builds_trust` into measurable sub-goals and experiments.
+- Decompose `microfactories_enable_export` into measurable sub-goals and experiments.
+- Decompose `local_supply_enables_resilience` into measurable sub-goals and experiments.
+- Decompose `packaging_protects_value_in_transit` into measurable sub-goals and experiments.
+- Decompose `customs_documentation_must_match_contents` into measurable sub-goals and experiments.
+- Decompose `lightweight_products_reduce_shipping_cost` into measurable sub-goals and experiments.
+- Decompose `digital_goods_have_zero_shipping_cost` into measurable sub-goals and experiments.
+- Decompose `kitting_enables_fast_fulfillment` into measurable sub-goals and experiments.
+- Decompose `last_mile_delivery_is_bottleneck` into measurable sub-goals and experiments.
+- Decompose `redundancy_enables_resilience` into measurable sub-goals and experiments.
+- Decompose `spares_inventory_decreases_downtime` into measurable sub-goals and experiments.
+- Decompose `backups_prevent_catastrophic_loss` into measurable sub-goals and experiments.
+- Decompose `cybersecurity_needed_for_remote_ops` into measurable sub-goals and experiments.
+- Decompose `storm_preparedness_is_mandatory` into measurable sub-goals and experiments.
+- Decompose `conflict_scenario_requires_contingency` into measurable sub-goals and experiments.
+- Decompose `evacuation_plan_reduces_losses` into measurable sub-goals and experiments.
+- Decompose `modularity_enables_upgradeability` into measurable sub-goals and experiments.
+- Decompose `israel_has_strong_engineering_talent_pool` into measurable sub-goals and experiments.
+- Decompose `ports_network_enables_import_export` into measurable sub-goals and experiments.
+- Decompose `desert_sun_supports_pv` into measurable sub-goals and experiments.
+- Decompose `urban_density_supports_services` into measurable sub-goals and experiments.
+- Decompose `hebrew_arabic_and_english_enable_trade` into measurable sub-goals and experiments.
+- Decompose `local_maker_communities_can_host_workshops` into measurable sub-goals and experiments.
+- Decompose `tourism_drives_repair_and_boat_services` into measurable sub-goals and experiments.
+- Decompose `agtech_has_export_potential` into measurable sub-goals and experiments.
+- Decompose `defense_spinoffs_can_enable_dual_use_tech` into measurable sub-goals and experiments.
+- Decompose `salvage_hull_minimizes_initial_capex` into measurable sub-goals and experiments.
+- Decompose `diy_pontoons_minimize_initial_capex` into measurable sub-goals and experiments.
+- Decompose `shared_jigs_reduce_setup_time` into measurable sub-goals and experiments.
+- Decompose `common_fasteners_reduce_inventory_costs` into measurable sub-goals and experiments.
+- Decompose `energy_efficiency_reduces_opex` into measurable sub-goals and experiments.
+- Decompose `electricity_tariff_variability_increases_opex_risk` into measurable sub-goals and experiments.
+- Decompose `48v_dc_bus_standardizes_power_tooling_standardization_reduces_costs` into measurable sub-goals and experiments.
+- Decompose `containerized_modules_enable_portability_microfactories_enable_export` into measurable sub-goals and experiments.
+- Decompose `bootstrapping_requires_early_revenue_service_offerings_have_short_sales_cycles` into measurable sub-goals and experiments.
+- Decompose `digital_ip_enables_remote_export_documentation_enables_hand_off` into measurable sub-goals and experiments.
+- Decompose `maritime_platform_enables_mobility_prefer_maritime_base` into measurable sub-goals and experiments.
+- Decompose `recycling_enables_material_supply_price_sheets_enable_fast_buy_sell` into measurable sub-goals and experiments.
+- Decompose `apprenticeship_accelerates_capability_hands_on_labs_enable_confidence` into measurable sub-goals and experiments.
+- Decompose `microcredentials_enable_skill_compounding_axiomatic_curricula_reduce_time_to_mastery` into measurable sub-goals and experiments.
+- Decompose `redundancy_enables_resilience_spares_inventory_decreases_downtime` into measurable sub-goals and experiments.
+- Decompose `comms_reliability_enables_remote_ops` into measurable sub-goals and experiments.
+- Decompose `low_bandwidth_workflows_reduce_cost` into measurable sub-goals and experiments.
+- Decompose `offline_first_docs_increase_resilience` into measurable sub-goals and experiments.
+- Decompose `mesh_networks_enable_local_linking` into measurable sub-goals and experiments.
+- Decompose `marine_vhf_improves_safety` into measurable sub-goals and experiments.
+- Decompose `ais_increases_situational_awareness` into measurable sub-goals and experiments.
+- Decompose `starlink_and_lte_enable_hq_uplinks` into measurable sub-goals and experiments.
+- Decompose `self_hosted_services_reduce_vendor_lock_in` into measurable sub-goals and experiments.
+- Decompose `weather_nowcasting_reduces_storm_risk` into measurable sub-goals and experiments.
+- Decompose `barometer_trends_improve_decisions` into measurable sub-goals and experiments.
+- Decompose `local_sea_state_is_path_dependent` into measurable sub-goals and experiments.
+- Decompose `mediterranean_winter_storms_require_preparation` into measurable sub-goals and experiments.
+- Decompose `seasonal_winds_affect_operations` into measurable sub-goals and experiments.
+- Decompose `pilot_charts_improve_route_planning` into measurable sub-goals and experiments.
+- Decompose `ro_desalination_enables_potable_supply` into measurable sub-goals and experiments.
+- Decompose `pre_filters_extend_ro_membrane_life` into measurable sub-goals and experiments.
+- Decompose `chlorination_and_uv_control_biofouling` into measurable sub-goals and experiments.
+- Decompose `brine_discharge_requires_environmental_care` into measurable sub-goals and experiments.
+- Decompose `cold_chain_preserves_value` into measurable sub-goals and experiments.
+- Decompose `blast_chilling_enables_quality` into measurable sub-goals and experiments.
+- Decompose `food_labeling_builds_trust` into measurable sub-goals and experiments.
+- Decompose `haccp_plans_reduce_food_risk` into measurable sub-goals and experiments.
+- Decompose `small_engine_service_has_high_local_demand` into measurable sub-goals and experiments.
+- Decompose `outboard_service_is_revenue_dense` into measurable sub-goals and experiments.
+- Decompose `shaft_alignment_prevents_vibration_failures` into measurable sub-goals and experiments.
+- Decompose `fuel_system_hygiene_prevents_breakdowns` into measurable sub-goals and experiments.
+- Decompose `bearing_and_seal_kits_reduce_downtime` into measurable sub-goals and experiments.
+- Decompose `surface_prep_dominates_paint_quality` into measurable sub-goals and experiments.
+- Decompose `zinc_primer_improves_anti_corrosion` into measurable sub-goals and experiments.
+- Decompose `antifouling_is_site_specific` into measurable sub-goals and experiments.
+- Decompose `salt_spray_accelerates_corrosion` into measurable sub-goals and experiments.
+- Decompose `shop_air_enables_many_tools` into measurable sub-goals and experiments.
+- Decompose `compressor_sizing_must_match_duty_cycle` into measurable sub-goals and experiments.
+- Decompose `chain_hoists_enable_safe_lifting` into measurable sub-goals and experiments.
+- Decompose `gantry_cranes_enable_module_swaps` into measurable sub-goals and experiments.
+- Decompose `waste_stream_segregation_reduces_disposal_costs` into measurable sub-goals and experiments.
+- Decompose `oil_and_battery_disposal_requires_compliance` into measurable sub-goals and experiments.
+- Decompose `solvent_handling_requires_ventilation` into measurable sub-goals and experiments.
+- Decompose `digital_payments_increase_conversion` into measurable sub-goals and experiments.
+- Decompose `marketplaces_expand_reach` into measurable sub-goals and experiments.
+- Decompose `affiliate_channels_reduce_cac` into measurable sub-goals and experiments.
+- Decompose `pricing_tiers_expand_market` into measurable sub-goals and experiments.
+- Decompose `service_sla_increases_trust` into measurable sub-goals and experiments.
+- Decompose `samples_and_demos_reduce_buyer_risk` into measurable sub-goals and experiments.
+- Decompose `portfolio_first_hiring_reduces_mismatch` into measurable sub-goals and experiments.
+- Decompose `peer_assessment_scales_quality_control` into measurable sub-goals and experiments.
+- Decompose `train_the_trainer_scales_education` into measurable sub-goals and experiments.
+- Decompose `bilingual_content_expands_audience` into measurable sub-goals and experiments.
+- Decompose `hebrew_arabic_english_content_reaches_most_customers` into measurable sub-goals and experiments.
+- Decompose `microgrants_reduce_capex_pressure` into measurable sub-goals and experiments.
+- Decompose `municipal_partnerships_reduce_permitting_friction` into measurable sub-goals and experiments.
+- Decompose `community_workshops_build_funnel` into measurable sub-goals and experiments.
+- Decompose `shorepower_cuts_fuel_opex_when_available` into measurable sub-goals and experiments.
+- Decompose `salvage_electronics_supply_spiky_but_cheap` into measurable sub-goals and experiments.
+- Decompose `preventive_maintenance_reduces_long_term_costs` into measurable sub-goals and experiments.
+- Decompose `tool_rental_reduces_upfront_capex` into measurable sub-goals and experiments.
+- Decompose `israel_coastal_sites_vary_in_mooring_costs` into measurable sub-goals and experiments.
+- Decompose `israel_imports_require_clear_hs_codes` into measurable sub-goals and experiments.
+- Decompose `israel_municipal_makerspaces_can_partner` into measurable sub-goals and experiments.
+- Decompose `israel_grant_landscape_changes_annually` into measurable sub-goals and experiments.
+- Decompose `israel_bilingual_markets_value_service_speed` into measurable sub-goals and experiments.
+- Decompose `israel_marina_density_supports_repair_shops` into measurable sub-goals and experiments.
+- Decompose `bench_layouts_reduce_search_time` into measurable sub-goals and experiments.
+- Decompose `kanban_bins_enable_fast_replenishment` into measurable sub-goals and experiments.
+- Decompose `color_coding_reduces_wiring_errors` into measurable sub-goals and experiments.
+- Decompose `fixture_tables_speed_square_frames` into measurable sub-goals and experiments.
+- Decompose `deburring_reduces_field_failures` into measurable sub-goals and experiments.
+- Decompose `powder_coating_requires_oven_and_ventilation` into measurable sub-goals and experiments.
+- Decompose `heat_set_inserts_upgrade_3d_prints` into measurable sub-goals and experiments.
+- Decompose `press_fit_and_rivets_enable_tool_light_assembly` into measurable sub-goals and experiments.
+- Decompose `modular_racking_scales_storage` into measurable sub-goals and experiments.
+- Decompose `lighting_quality_increases_throughput` into measurable sub-goals and experiments.
+- Decompose `barcode_labels_reduce_inventory_mistakes` into measurable sub-goals and experiments.
+- Decompose `pcb_proto_services_enable_small_batches` into measurable sub-goals and experiments.
+- Decompose `solder_paste_and_stencils_speed_reflow` into measurable sub-goals and experiments.
+- Decompose `reflow_hotplate_or_oven_supports_smd` into measurable sub-goals and experiments.
+- Decompose `esd_controls_reduce_component_loss` into measurable sub-goals and experiments.
+- Decompose `test_jigs_reduce_rma` into measurable sub-goals and experiments.
+- Decompose `firmware_bootloaders_reduce_bringup_time` into measurable sub-goals and experiments.
+- Decompose `low_power_design_extends_runtime` into measurable sub-goals and experiments.
+- Decompose `laser_cutters_enable_flat_fast_kitting` into measurable sub-goals and experiments.
+- Decompose `fume_extraction_is_mandatory_for_laser` into measurable sub-goals and experiments.
+- Decompose `plywood_and_hdpe_make_good_jigs` into measurable sub-goals and experiments.
+- Decompose `small_mill_enables_precision_slots` into measurable sub-goals and experiments.
+- Decompose `mini_lathe_allows_shaft_and_bushing_work` into measurable sub-goals and experiments.
+- Decompose `workholding_quality_controls_precision` into measurable sub-goals and experiments.
+- Decompose `coolant_management_extends_tool_life` into measurable sub-goals and experiments.
+- Decompose `threadlockers_reduce_vibration_loosen` into measurable sub-goals and experiments.
+- Decompose `structural_adhesives_enable_lightweight_joins` into measurable sub-goals and experiments.
+- Decompose `adhesive_cure_time_impacts_cycle_time` into measurable sub-goals and experiments.
+- Decompose `common_fasteners_unify_spares` into measurable sub-goals and experiments.
+- Decompose `cell_grading_improves_pack_performance` into measurable sub-goals and experiments.
+- Decompose `spot_welding_requires_safety_practices` into measurable sub-goals and experiments.
+- Decompose `bms_configuration_is_critical` into measurable sub-goals and experiments.
+- Decompose `used_cells_need_capacity_internal_resistance_tests` into measurable sub-goals and experiments.
+- Decompose `pack_enclosures_require_vent_and_clearances` into measurable sub-goals and experiments.
+- Decompose `pick_pack_checklists_reduce_mistakes` into measurable sub-goals and experiments.
+- Decompose `return_merchandise_authorization_simplifies_warranty` into measurable sub-goals and experiments.
+- Decompose `dangerous_goods_have_special_rules` into measurable sub-goals and experiments.
+- Decompose `flat_pack_design_reduces_shipping_volume` into measurable sub-goals and experiments.
+- Decompose `photographic_proof_reduces_disputes` into measurable sub-goals and experiments.
+- Decompose `packing_slips_speed_customs_clearance` into measurable sub-goals and experiments.
+- Decompose `modular_tent_structures_expand_covered_space` into measurable sub-goals and experiments.
+- Decompose `used_market_is_deep_for_tools_and_racks` into measurable sub-goals and experiments.
+- Decompose `seasonal_tourism_fluctuations_affect_service_demand` into measurable sub-goals and experiments.
+- Decompose `collaboration_with_schools_creates_apprentice_funnel` into measurable sub-goals and experiments.
+- Decompose `community_service_days_build_reputation` into measurable sub-goals and experiments.
+- Decompose `quiet_hours_reduce_complaints` into measurable sub-goals and experiments.
+- Decompose `brand_consistency_increases_conversion` into measurable sub-goals and experiments.
+- Decompose `before_after_media_builds_trust` into measurable sub-goals and experiments.
+- Decompose `response_time_is_a_sales_lever` into measurable sub-goals and experiments.
+- Decompose `live_demos_convert_skeptics` into measurable sub-goals and experiments.
+- Decompose `warranty_policies_reduce_hesitation` into measurable sub-goals and experiments.
+- Decompose `referral_programs_compound_growth` into measurable sub-goals and experiments.
+- Decompose `quoting_templates_reduce_latency` into measurable sub-goals and experiments.
+- Decompose `staged_payments_reduce_risk` into measurable sub-goals and experiments.
+- Decompose `deposits_reduce_no_shows` into measurable sub-goals and experiments.
+- Decompose `cash_envelope_for_small_purchases_speeds_ops` into measurable sub-goals and experiments.
+- Decompose `unit_economics_reviews_prevent_unprofitable_skus` into measurable sub-goals and experiments.
+- Decompose `monthly_kpi_review_improves_focus` into measurable sub-goals and experiments.
+- Decompose `msds_sheets_must_be_accessible` into measurable sub-goals and experiments.
+- Decompose `toolbox_talks_reduce_incidents` into measurable sub-goals and experiments.
+- Decompose `near_miss_logs_improve_prevention` into measurable sub-goals and experiments.
+- Decompose `portable_appliances_require_periodic_check` into measurable sub-goals and experiments.
+- Decompose `eye_ear_respirator_protection_prevents_injury` into measurable sub-goals and experiments.
+- Decompose `ladder_and_work_at_height_rules_reduce_falls` into measurable sub-goals and experiments.
+- Decompose `major_ports_support_import_export` into measurable sub-goals and experiments.
+- Decompose `tech_communities_enable_meetups` into measurable sub-goals and experiments.
+- Decompose `marina_rules_vary_by_local_authority` into measurable sub-goals and experiments.
+- Decompose `makerspace_partnerships_offer_shared_equipment` into measurable sub-goals and experiments.
+- Decompose `reused_shipping_containers_can_form_workbays` into measurable sub-goals and experiments.
+- Decompose `used_racking_and_benches_are_cost_effective` into measurable sub-goals and experiments.
+- Decompose `local_printers_offer_label_runs` into measurable sub-goals and experiments.
+- Decompose `foam_inserts_reduce_shipping_damage` into measurable sub-goals and experiments.
+- Decompose `qr_codes_link_products_to_docs` into measurable sub-goals and experiments.
+- Decompose `whatsapp_and_telegram_groups_reach_customers` into measurable sub-goals and experiments.
+- Decompose `photo_lightbox_improves_listing_quality` into measurable sub-goals and experiments.
+- Decompose `micro_donations_can_seed_community_projects` into measurable sub-goals and experiments.
+- Decompose `refurb_market_absorbs_alternators_ups_and_tools` into measurable sub-goals and experiments.
+- Decompose `seasonal_workshops_generate_spikes_in_sales` into measurable sub-goals and experiments.
+- Decompose `drone_mapping_rules_exist` into measurable sub-goals and experiments.
+- Decompose `coatings_and_painting_involve_isocyanates` into measurable sub-goals and experiments.
+- Decompose `pv48_arrays_reduce_fuel_use` into measurable sub-goals and experiments.
+- Decompose `wind_microturbine_adds_night_generation` into measurable sub-goals and experiments.
+- Decompose `tilt_adjustment_increases_pv_yield` into measurable sub-goals and experiments.
+- Decompose `mppt_controllers_optimize_pv_harvest` into measurable sub-goals and experiments.
+- Decompose `dc_dc_modules_enable_multi_voltage_tools` into measurable sub-goals and experiments.
+- Decompose `battery_monitoring_prevents_surprises` into measurable sub-goals and experiments.
+- Decompose `low_resistance_connections_reduce_losses` into measurable sub-goals and experiments.
+- Decompose `busbar_covering_prevents_accidents` into measurable sub-goals and experiments.
+- Decompose `energy_logging_enables_load_planning` into measurable sub-goals and experiments.
+- Decompose `good_ground_tackle_prevents_drag` into measurable sub-goals and experiments.
+- Decompose `twin_anchor_veering_reduces_swing` into measurable sub-goals and experiments.
+- Decompose `snubbers_reduce_shock_loads` into measurable sub-goals and experiments.
+- Decompose `chafe_protection_extends_line_life` into measurable sub-goals and experiments.
+- Decompose `regular_hull_inspection_prevents_water_ingress` into measurable sub-goals and experiments.
+- Decompose `bilge_alarms_reduce_flooding_risk` into measurable sub-goals and experiments.
+- Decompose `antifoul_schedule_reduces_fuel_burn` into measurable sub-goals and experiments.
+- Decompose `light_discipline_reduces_nuisance` into measurable sub-goals and experiments.
+- Decompose `sound_damping_reduces_complaints` into measurable sub-goals and experiments.
+- Decompose `visual_tidiness_reduces_attention` into measurable sub-goals and experiments.
+- Decompose `scheduled_ops_reduce_disturbance` into measurable sub-goals and experiments.
+- Decompose `abc_extinguishers_reduce_total_fire_risk` into measurable sub-goals and experiments.
+- Decompose `lithium_fire_kit_is_specialized` into measurable sub-goals and experiments.
+- Decompose `first_aid_training_improves_outcomes` into measurable sub-goals and experiments.
+- Decompose `lockout_tagout_prevents_shock` into measurable sub-goals and experiments.
+- Decompose `hot_work_permits_reduce_fire_incidents` into measurable sub-goals and experiments.
+- Decompose `spill_kits_limit_environmental_damage` into measurable sub-goals and experiments.
+- Decompose `simple_boms_reduce_procurement_latency` into measurable sub-goals and experiments.
+- Decompose `three_vendor_quotes_reduce_cost` into measurable sub-goals and experiments.
+- Decompose `preferred_parts_lists_reduce_variation` into measurable sub-goals and experiments.
+- Decompose `consumable_usage_logs_enable_forecasting` into measurable sub-goals and experiments.
+- Decompose `min_max_stock_levels_reduce_stockouts` into measurable sub-goals and experiments.
+- Decompose `local_substitutes_reduce_import_delays` into measurable sub-goals and experiments.
+- Decompose `module_checkouts_prove_skill` into measurable sub-goals and experiments.
+- Decompose `capstone_projects_demonstrate_readiness` into measurable sub-goals and experiments.
+- Decompose `peer_review_increases_credibility` into measurable sub-goals and experiments.
+- Decompose `public_portfolio_increases_sales` into measurable sub-goals and experiments.
+- Decompose `trainers_need_curriculum_checklists` into measurable sub-goals and experiments.
+- Decompose `unit_hour_margin_drives_priorities` into measurable sub-goals and experiments.
+- Decompose `skus_need_clear_contribution_margins` into measurable sub-goals and experiments.
+- Decompose `break_even_targets_focus_execution` into measurable sub-goals and experiments.
+- Decompose `simple_retainer_models_smooth_cashflow` into measurable sub-goals and experiments.
+- Decompose `inventory_turns_measure_efficiency` into measurable sub-goals and experiments.
+- Decompose `escrow_reduces_large_job_risk` into measurable sub-goals and experiments.
+- Decompose `facebook_marketplace_and_local_groups_generate_leads` into measurable sub-goals and experiments.
+- Decompose `marina_bulletin_boards_are_effective` into measurable sub-goals and experiments.
+- Decompose `in_person_demos_trump_ads_for_technical_sales` into measurable sub-goals and experiments.
+- Decompose `field_service_radius_limits_response_time` into measurable sub-goals and experiments.
+- Decompose `evening_and_weekend_windows_increase_access_to_customers` into measurable sub-goals and experiments.
+- Decompose `short_howto_videos_improve_conversion` into measurable sub-goals and experiments.
+- Decompose `qr_labels_on_gear_link_to_howtos` into measurable sub-goals and experiments.
+- Decompose `reply_within_two_hours_wins_jobs` into measurable sub-goals and experiments.
+- Decompose `even_small_warranties_reduce_buyer_anxiety` into measurable sub-goals and experiments.
+- Decompose `on_site_demos_generate_referrals` into measurable sub-goals and experiments.
+- Decompose `photos_with_part_numbers_reduce_mistakes` into measurable sub-goals and experiments.
+- Decompose `morning_pickups_reduce_turnaround_time` into measurable sub-goals and experiments.
+- Decompose `evening_dropoffs_increase_customer_convenience` into measurable sub-goals and experiments.
+- Decompose `loaner_tools_keep_jobs_moving` into measurable sub-goals and experiments.
+- Decompose `smart_upselling_increases_basket_size` into measurable sub-goals and experiments.
+- Decompose `batching_jobs_reduces_setup_time` into measurable sub-goals and experiments.
+- Decompose `single_piece_flow_reduces_wip` into measurable sub-goals and experiments.
+- Decompose `jigs_and_fixtures_increase_throughput` into measurable sub-goals and experiments.
+- Decompose `color_coded_status_boards_reduce_coordination_cost` into measurable sub-goals and experiments.
+- Decompose `daily_standup_reveals_blockers` into measurable sub-goals and experiments.
+- Decompose `visual_work_instructions_reduce_errors` into measurable sub-goals and experiments.
+- Decompose `preflight_checklists_reduce_rework` into measurable sub-goals and experiments.
+- Decompose `post_job_reviews_improve_quality` into measurable sub-goals and experiments.
+- Decompose `kanban_limits_reduce_overload` into measurable sub-goals and experiments.
+- Decompose `timeboxing_helps_adhd_focus` into measurable sub-goals and experiments.
+- Decompose `access_control_reduces_losses` into measurable sub-goals and experiments.
+- Decompose `cctv_deterrence_reduces_theft` into measurable sub-goals and experiments.
+- Decompose `tool_checkout_logs_reduce_loss` into measurable sub-goals and experiments.
+- Decompose `asset_tags_enable_tracking` into measurable sub-goals and experiments.
+- Decompose `backups_prevent_data_loss` into measurable sub-goals and experiments.
+- Decompose `immutable_logs_increase_accountability` into measurable sub-goals and experiments.
+- Decompose `privacy_respect_builds_trust` into measurable sub-goals and experiments.
+- Decompose `frp_is_light_but_needs_ventilation` into measurable sub-goals and experiments.
+- Decompose `steel_is_strong_but_heavy` into measurable sub-goals and experiments.
+- Decompose `aluminum_is_corrosion_resistant_but_pricey` into measurable sub-goals and experiments.
+- Decompose `tig_allows_precision_on_aluminum` into measurable sub-goals and experiments.
+- Decompose `stick_welding_is_rugged_and_cheap` into measurable sub-goals and experiments.
+- Decompose `migsaves_time_on_thin_steel` into measurable sub-goals and experiments.
+- Decompose `abrasive_selection_impacts_finish_quality` into measurable sub-goals and experiments.
+- Decompose `powder_coating_improves_durability_if_available` into measurable sub-goals and experiments.
+- Decompose `hot_dip_galvanizing_extends_steel_life` into measurable sub-goals and experiments.
+- Decompose `tender_boat_increases_reach` into measurable sub-goals and experiments.
+- Decompose `electric_trolling_motors_cut_noise` into measurable sub-goals and experiments.
+- Decompose `folding_davits_enable_easy_launch` into measurable sub-goals and experiments.
+- Decompose `portable_sonar_aids_shallow_route_planning` into measurable sub-goals and experiments.
+- Decompose `job_board_aligns_team` into measurable sub-goals and experiments.
+- Decompose `customer_crm_increases_repeat_business` into measurable sub-goals and experiments.
+- Decompose `quote_to_invoice_pipeline_reduces_latency` into measurable sub-goals and experiments.
+- Decompose `sms_whatsapp_updates_reduce_no_shows` into measurable sub-goals and experiments.
+- Decompose `after_action_reports_feed_portfolio` into measurable sub-goals and experiments.
+- Decompose `multi_use_tools_reduce_capex` into measurable sub-goals and experiments.
+- Decompose `offpeak_purchasing_reduces_cost` into measurable sub-goals and experiments.
+- Decompose `bulk_buy_for_consumables_reduces_unit_price` into measurable sub-goals and experiments.
+- Decompose `freecycle_and_surplus_markets_cut_costs` into measurable sub-goals and experiments.
+- Decompose `prevent_stockouts_avoids_expedited_fees` into measurable sub-goals and experiments.
+- Decompose `fleet_fuel_cards_reduce_price_variance` into measurable sub-goals and experiments.
+- Decompose `tool_calibration_extends_service_life` into measurable sub-goals and experiments.
+- Decompose `welding_fumes_require_respiratory_control` into measurable sub-goals and experiments.
+- Decompose `hearing_protection_prevents_hearing_loss` into measurable sub-goals and experiments.
+- Decompose `eye_protection_is_mandatory` into measurable sub-goals and experiments.
+- Decompose `glove_selection_matches_task` into measurable sub-goals and experiments.
+- Decompose `material_sds_must_be_available` into measurable sub-goals and experiments.
+- Decompose `corner_protectors_reduce_shipping_damage` into measurable sub-goals and experiments.
+- Decompose `void_fill_and_strapping_stabilize_loads` into measurable sub-goals and experiments.
+- Decompose `reusable_crates_reduce_long_term_costs` into measurable sub-goals and experiments.
+- Decompose `shipment_insurance_mitigates_large_orders` into measurable sub-goals and experiments.
+- Decompose `qr_codes_on_gear_link_portfolio` into measurable sub-goals and experiments.
+- Decompose `before_after_shorts_drive_leads` into measurable sub-goals and experiments.
+- Decompose `in_person_referrals_outperform_ads` into measurable sub-goals and experiments.
+- Decompose `service_memberships_create_recurring_revenue` into measurable sub-goals and experiments.
+- Decompose `maintenance_contracts_smooth_cashflow` into measurable sub-goals and experiments.
+- Decompose `reverse_osmosis_removes_salts_and_contaminants` into measurable sub-goals and experiments.
+- Decompose `pre_filtration_extends_ro_membrane_life` into measurable sub-goals and experiments.
+- Decompose `backwash_cycles_restore_filter_flow` into measurable sub-goals and experiments.
+- Decompose `activated_carbon_removes_organics_and_odors` into measurable sub-goals and experiments.
+- Decompose `uv_sterilization_reduces_bioburden` into measurable sub-goals and experiments.
+- Decompose `tds_and_ph_testing_enable_water_quality_control` into measurable sub-goals and experiments.
+- Decompose `membrane_scaling_reduces_ro_efficiency` into measurable sub-goals and experiments.
+- Decompose `antiscalant_dosing_reduces_scaling` into measurable sub-goals and experiments.
+- Decompose `high_pressure_pumps_require_safe_plumbing` into measurable sub-goals and experiments.
+- Decompose `permeate_flush_extends_membrane_life` into measurable sub-goals and experiments.
+- Decompose `storage_tank_headspace_needs_vent_and_baffles` into measurable sub-goals and experiments.
+- Decompose `ras_biofilters_convert_ammonia_to_nitrate` into measurable sub-goals and experiments.
+- Decompose `dissolved_oxygen_is_critical_for_fish_health` into measurable sub-goals and experiments.
+- Decompose `aeration_and_circulation_reduce_dead_zones` into measurable sub-goals and experiments.
+- Decompose `ammonia_spikes_cause_fish_mortality` into measurable sub-goals and experiments.
+- Decompose `feed_rate_controls_waste_and_growth` into measurable sub-goals and experiments.
+- Decompose `quarantine_tanks_reduce_disease_risk` into measurable sub-goals and experiments.
+- Decompose `backup_air_and_power_prevent_losses` into measurable sub-goals and experiments.
+- Decompose `hydroponics_absorb_nitrates_from_ras` into measurable sub-goals and experiments.
+- Decompose `water_temperature_controls_growth_rate` into measurable sub-goals and experiments.
+- Decompose `harvest_scheduling_balances_cashflow` into measurable sub-goals and experiments.
+- Decompose `cold_chain_preserves_quality` into measurable sub-goals and experiments.
+- Decompose `ice_making_supports_cold_chain` into measurable sub-goals and experiments.
+- Decompose `sanitation_sops_reduce_contamination` into measurable sub-goals and experiments.
+- Decompose `food_contact_surfaces_require_specific_cleaners` into measurable sub-goals and experiments.
+- Decompose `glove_and_hair_control_reduce_contamination` into measurable sub-goals and experiments.
+- Decompose `lot_coding_enables_traceability` into measurable sub-goals and experiments.
+- Decompose `ais_receiver_improves_situational_awareness` into measurable sub-goals and experiments.
+- Decompose `radar_reflector_increases_visibility` into measurable sub-goals and experiments.
+- Decompose `epirb_and_plb_improve_rescue_outcomes` into measurable sub-goals and experiments.
+- Decompose `storm_mooring_plans_reduce_damage` into measurable sub-goals and experiments.
+- Decompose `weight_distribution_affects_stability` into measurable sub-goals and experiments.
+- Decompose `free_surface_effect_reduces_stability_in_tanks` into measurable sub-goals and experiments.
+- Decompose `periodic_weight_audits_reduce_list_issues` into measurable sub-goals and experiments.
+- Decompose `line_handling_training_prevents_injury` into measurable sub-goals and experiments.
+- Decompose `local_first_knowledge_bases_reduce_outage_risk` into measurable sub-goals and experiments.
+- Decompose `oplog_event_streams_enable_replay` into measurable sub-goals and experiments.
+- Decompose `append_only_logs_are_audit_friendly` into measurable sub-goals and experiments.
+- Decompose `minimal_access_policies_reduce_breach_surface` into measurable sub-goals and experiments.
+- Decompose `regular_patching_reduces_exposure` into measurable sub-goals and experiments.
+- Decompose `endpoint_encryption_protects_data_at_rest` into measurable sub-goals and experiments.
+- Decompose `nas_with_raid_increases_resilience` into measurable sub-goals and experiments.
+- Decompose `mesh_networks_extend_local_comms` into measurable sub-goals and experiments.
+- Decompose `uplink_failover_reduces_downtime` into measurable sub-goals and experiments.
+- Decompose `dashboards_turn_logs_into_decisions` into measurable sub-goals and experiments.
+- Decompose `cheap_sensors_enable_breadth` into measurable sub-goals and experiments.
+- Decompose `calibration_routines_increase_sensor_trust` into measurable sub-goals and experiments.
+- Decompose `sensor_fusion_improves_alarm_quality` into measurable sub-goals and experiments.
+- Decompose `thresholds_and_hysteresis_reduce_alarm_chatter` into measurable sub-goals and experiments.
+- Decompose `runtime_counters_predict_maintenance` into measurable sub-goals and experiments.
+- Decompose `environmental_logging_informs_corrosion_control` into measurable sub-goals and experiments.
+- Decompose `energy_forecasting_improves_genset_scheduling` into measurable sub-goals and experiments.
+- Decompose `kpi_dashboards_align_priorities` into measurable sub-goals and experiments.
+- Decompose `one_button_start_sequences_reduce_context_switch` into measurable sub-goals and experiments.
+- Decompose `visual_checklists_reduce_executive_load` into measurable sub-goals and experiments.
+- Decompose `work_zones_reduce_tool_search` into measurable sub-goals and experiments.
+- Decompose `batching_admin_in_time_boxes_protects_deep_work` into measurable sub-goals and experiments.
+- Decompose `two_hour_rule_for_replies_keeps_pipeline_warm` into measurable sub-goals and experiments.
+- Decompose `done_definition_reduces_rework` into measurable sub-goals and experiments.
+- Decompose `cooperative_purchasing_reduces_unit_cost` into measurable sub-goals and experiments.
+- Decompose `barter_and_timebank_expand_capacity` into measurable sub-goals and experiments.
+- Decompose `equipment_auctions_offer_low_capex_assets` into measurable sub-goals and experiments.
+- Decompose `buyback_programs_increase_customer_trust` into measurable sub-goals and experiments.
+- Decompose `refurb_trade_in_feeds_material_supply` into measurable sub-goals and experiments.
+- Decompose `pilot_projects_unlock_partner_support` into measurable sub-goals and experiments.
+- Decompose `subscription_bundles_create_recurring_revenue` into measurable sub-goals and experiments.
+- Decompose `micro_courses_convert_skill_to_income` into measurable sub-goals and experiments.
+- Decompose `course_outlines_reduce_production_time` into measurable sub-goals and experiments.
+- Decompose `problem_solution_templates_speed_content_creation` into measurable sub-goals and experiments.
+- Decompose `portfolio_reviews_increase_student_enrollment` into measurable sub-goals and experiments.
+- Decompose `marketplace_listings_expand_distribution` into measurable sub-goals and experiments.
+- Decompose `affiliate_links_create_secondary_income` into measurable sub-goals and experiments.
+- Decompose `change_logs_improve_traceability` into measurable sub-goals and experiments.
+- Decompose `versioned_sops_reduce_confusion` into measurable sub-goals and experiments.
+- Decompose `incident_response_checklists_reduce_damage` into measurable sub-goals and experiments.
+- Decompose `data_retention_policies_reduce_liability` into measurable sub-goals and experiments.
+- Decompose `photos_and_serials_enable_warranty_claims` into measurable sub-goals and experiments.
+- Decompose `parametric_cad_reduces_iteration` into measurable sub-goals and experiments.
+- Decompose `cam_postprocessors_enable_toolpath_portability` into measurable sub-goals and experiments.
+- Decompose `outsourcing_heavy_processes_reduces_initial_capex` into measurable sub-goals and experiments.
+- Decompose `cnc_plasma_enables_fast_plate_cutting` into measurable sub-goals and experiments.
+- Decompose `cnc_router_enables_wood_and_composites` into measurable sub-goals and experiments.
+- Decompose `laser_cutting_accelerates_templates` into measurable sub-goals and experiments.
+- Decompose `fixture_tables_increase_precision` into measurable sub-goals and experiments.
+- Decompose `tube_bending_expands_skus` into measurable sub-goals and experiments.
+- Decompose `press_brake_enables_sheet_metal_products` into measurable sub-goals and experiments.
+- Decompose `sandblasting_improves_coating_adhesion` into measurable sub-goals and experiments.
+- Decompose `powder_coating_requires_clean_dry_metal` into measurable sub-goals and experiments.
+- Decompose `oven_curing_improves_coating_durability` into measurable sub-goals and experiments.
+- Decompose `anodizing_improves_corrosion_resistance` into measurable sub-goals and experiments.
+- Decompose `waterjet_cuts_thick_materials_but_is_costly` into measurable sub-goals and experiments.
+- Decompose `fastener_standardization_reduces_sku_count` into measurable sub-goals and experiments.
+- Decompose `gauged_drawings_reduce_shop_floor_errors` into measurable sub-goals and experiments.
+- Decompose `nesting_optimizers_reduce_material_scrap` into measurable sub-goals and experiments.
+- Decompose `moisture_meters_enable_osmosis_assessment` into measurable sub-goals and experiments.
+- Decompose `epoxy_repairs_offer_superior_bond_in_wet_hull_contexts` into measurable sub-goals and experiments.
+- Decompose `vacuum_bagging_improves_laminate_quality` into measurable sub-goals and experiments.
+- Decompose `peel_ply_simplifies_surface_finish` into measurable sub-goals and experiments.
+- Decompose `core_replacement_restores_panel_stiffness` into measurable sub-goals and experiments.
+- Decompose `scarf_joints_increase_repair_strength` into measurable sub-goals and experiments.
+- Decompose `temperature_control_enables_consistent_cure` into measurable sub-goals and experiments.
+- Decompose `post_cure_improves_mechanical_properties` into measurable sub-goals and experiments.
+- Decompose `fairing_compounds_reduce_time_to_paint` into measurable sub-goals and experiments.
+- Decompose `gelcoat_repairs_require_uv_stable_topcoat` into measurable sub-goals and experiments.
+- Decompose `48v_ecosystem_simplifies_ev_conversions` into measurable sub-goals and experiments.
+- Decompose `ebike_kits_offer_high_roi` into measurable sub-goals and experiments.
+- Decompose `brushless_motors_require_esc` into measurable sub-goals and experiments.
+- Decompose `regen_braking_recovers_energy_in_hills` into measurable sub-goals and experiments.
+- Decompose `battery_bms_protects_cells` into measurable sub-goals and experiments.
+- Decompose `cell_grading_and_matching_balances_packs` into measurable sub-goals and experiments.
+- Decompose `spot_welding_requires_eye_and_fire_safety` into measurable sub-goals and experiments.
+- Decompose `enclosures_require_ip_rating_for_splash` into measurable sub-goals and experiments.
+- Decompose `legal_speed_limits_vary_by_jurisdiction` into measurable sub-goals and experiments.
+- Decompose `registration_and_insurance_require_compliance` into measurable sub-goals and experiments.
+- Decompose `dc_high_current_requires_clear_procedures` into measurable sub-goals and experiments.
+- Decompose `drone_photogrammetry_maps_assets_and_damage` into measurable sub-goals and experiments.
+- Decompose `thermal_imaging_identifies_hotspots_and_moisture` into measurable sub-goals and experiments.
+- Decompose `preplanned_flights_reduce_risk` into measurable sub-goals and experiments.
+- Decompose `uas_operations_are_governed_by_local_regulations` into measurable sub-goals and experiments.
+- Decompose `maintain_visual_line_of_sight` into measurable sub-goals and experiments.
+- Decompose `wind_limits_reduce_operational_window` into measurable sub-goals and experiments.
+- Decompose `battery_swap_turnaround_increases_uptime` into measurable sub-goals and experiments.
+- Decompose `checklists_prevent_flyaways` into measurable sub-goals and experiments.
+- Decompose `template_rendering_accelerates_documentation` into measurable sub-goals and experiments.
+- Decompose `barcodes_link_assets_to_records` into measurable sub-goals and experiments.
+- Decompose `change_requests_control_release` into measurable sub-goals and experiments.
+- Decompose `lot_tracking_links_materials_to_jobs` into measurable sub-goals and experiments.
+- Decompose `job_cards_reduce_context_switching` into measurable sub-goals and experiments.
+- Decompose `starter_max_pack_limits_scope_and_speeds_iteration` into measurable sub-goals and experiments.
+- Decompose `quarterly_refactors_reduce_config_entropy` into measurable sub-goals and experiments.
+- Decompose `module_caps_prevent_uncontrolled_sprawl` into measurable sub-goals and experiments.
+- Decompose `micropayments_enable_nanopricing` into measurable sub-goals and experiments.
+- Decompose `escrow_reduces_counterparty_risk` into measurable sub-goals and experiments.
+- Decompose `kyc_and_aml_compliance_are_required` into measurable sub-goals and experiments.
+- Decompose `prepaid_vouchers_expand_access` into measurable sub-goals and experiments.
+- Decompose `community_savings_groups_increase_resilience` into measurable sub-goals and experiments.
+- Decompose `merchant_qr_codes_reduce_pos_costs` into measurable sub-goals and experiments.
+- Decompose `subscription_models_increase_predictable_cashflow` into measurable sub-goals and experiments.
+- Decompose `reuse_salvaged_equipment_cuts_capex` into measurable sub-goals and experiments.
+- Decompose `shared_spaces_reduce_rent` into measurable sub-goals and experiments.
+- Decompose `cloud_free_tiers_reduce_initial_opex` into measurable sub-goals and experiments.
+- Decompose `volunteer_hours_reduce_labor_costs` into measurable sub-goals and experiments.
+- Decompose `community_mesh_networks_increase_resilience` into measurable sub-goals and experiments.
+- Decompose `sms_gateways_expand_reach` into measurable sub-goals and experiments.
+- Decompose `offline_first_design_reduces_failure_modes` into measurable sub-goals and experiments.
+- Decompose `multilingual_interfaces_increase_adoption` into measurable sub-goals and experiments.
+- Decompose `open_source_tools_reduce_vendor_lock_in` into measurable sub-goals and experiments.
+- Decompose `device_kiosks_reduce_digital_divide` into measurable sub-goals and experiments.
+- Decompose `radio_repeaters_extend_coverage` into measurable sub-goals and experiments.
+- Decompose `local_cdn_caches_reduce_bandwidth_costs` into measurable sub-goals and experiments.
+- Decompose `drip_irrigation_maximizes_water_efficiency` into measurable sub-goals and experiments.
+- Decompose `desert_greenhouses_extend_growing_season` into measurable sub-goals and experiments.
+- Decompose `hydroponics_increases_yield_per_area` into measurable sub-goals and experiments.
+- Decompose `aquaponics_recovers_nutrients` into measurable sub-goals and experiments.
+- Decompose `seed_saving_preserves_local_varieties` into measurable sub-goals and experiments.
+- Decompose `cold_chain_reduces_food_waste` into measurable sub-goals and experiments.
+- Decompose `soil_testing_guides_fertilizer_use` into measurable sub-goals and experiments.
+- Decompose `biochar_improves_soil_and_sequesters_carbon` into measurable sub-goals and experiments.
+- Decompose `point_of_use_filtration_reduces_waterborne_disease` into measurable sub-goals and experiments.
+- Decompose `chlorination_is_cost_effective` into measurable sub-goals and experiments.
+- Decompose `small_ro_units_enable_brackish_desalination` into measurable sub-goals and experiments.
+- Decompose `rainwater_harvesting_reduces_utility_dependency` into measurable sub-goals and experiments.
+- Decompose `leak_detection_reduces_losses` into measurable sub-goals and experiments.
+- Decompose `water_safety_plans_reduce_incidents` into measurable sub-goals and experiments.
+- Decompose `rooftop_pv_reduces_opex` into measurable sub-goals and experiments.
+- Decompose `micro_inverters_simplify_installation` into measurable sub-goals and experiments.
+- Decompose `battery_swapping_increases_uptime` into measurable sub-goals and experiments.
+- Decompose `demand_response_flattens_peaks` into measurable sub-goals and experiments.
+- Decompose `solar_cookers_reduce_fuel_costs` into measurable sub-goals and experiments.
+- Decompose `efficient_appliances_reduce_load` into measurable sub-goals and experiments.
+- Decompose `48v_dc_bus_standardizes_power_linkable_with_earlier_axioms` into measurable sub-goals and experiments.
+- Decompose `telemedicine_extends_care_reach` into measurable sub-goals and experiments.
+- Decompose `screening_catches_conditions_early` into measurable sub-goals and experiments.
+- Decompose `cold_chain_vaccines_require_temperature_logging` into measurable sub-goals and experiments.
+- Decompose `first_aid_training_increases_survival` into measurable sub-goals and experiments.
+- Decompose `mental_health_first_aid_reduces_crises` into measurable sub-goals and experiments.
+- Decompose `community_health_workers_increase_coverage` into measurable sub-goals and experiments.
+- Decompose `data_privacy_in_health_is_critical` into measurable sub-goals and experiments.
+- Decompose `competency_maps_align_training_to_jobs` into measurable sub-goals and experiments.
+- Decompose `bootcamps_speed_employability` into measurable sub-goals and experiments.
+- Decompose `portfolio_projects_signal_skill` into measurable sub-goals and experiments.
+- Decompose `public_libraries_expand_access` into measurable sub-goals and experiments.
+- Decompose `mobile_classrooms_reach_remote_populations` into measurable sub-goals and experiments.
+- Decompose `microcredentials_enable_skill_compounding_cross-link` into measurable sub-goals and experiments.
+- Decompose `basic_cyber_hygiene_reduces_breach_risk` into measurable sub-goals and experiments.
+- Decompose `offline_backups_prevent_ransomware_loss` into measurable sub-goals and experiments.
+- Decompose `privacy_by_design_builds_trust` into measurable sub-goals and experiments.
+- Decompose `open_data_enables_civic_innovation` into measurable sub-goals and experiments.
+- Decompose `data_lakes_enable_cross_domain_insight` into measurable sub-goals and experiments.
+- Decompose `asset_inventories_reduce_shadow_it` into measurable sub-goals and experiments.
+- Decompose `least_privilege_reduces_blast_radius` into measurable sub-goals and experiments.
+- Decompose `shared_logistics_reduce_unit_costs` into measurable sub-goals and experiments.
+- Decompose `last_mile_lockers_improve_delivery_reliability` into measurable sub-goals and experiments.
+- Decompose `portable_tools_enable_pop_up_workshops` into measurable sub-goals and experiments.
+- Decompose `plastics_recycling_enables_local_manufacturing` into measurable sub-goals and experiments.
+- Decompose `modular_tooling_reduces_changeover_time` into measurable sub-goals and experiments.
+- Decompose `design_for_disassembly_enables_reuse` into measurable sub-goals and experiments.
+- Decompose `remanufacturing_creates_high_margin_exports` into measurable sub-goals and experiments.
+- Decompose `modular_housing_speeds_deployment` into measurable sub-goals and experiments.
+- Decompose `thermal_insulation_reduces_energy_load` into measurable sub-goals and experiments.
+- Decompose `passive_cooling_reduces_opex` into measurable sub-goals and experiments.
+- Decompose `seismic_bracing_reduces_collapse_risk` into measurable sub-goals and experiments.
+- Decompose `prefab_panels_reduce_site_time` into measurable sub-goals and experiments.
+- Decompose `cultural_routes_increase_local_spend` into measurable sub-goals and experiments.
+- Decompose `heritage_digitization_preserves_assets` into measurable sub-goals and experiments.
+- Decompose `festivals_drive_seasonal_revenue` into measurable sub-goals and experiments.
+- Decompose `bilingual_signage_increases_tourist_satisfaction` into measurable sub-goals and experiments.
+- Decompose `community_guides_create_jobs` into measurable sub-goals and experiments.
+- Decompose `participatory_budgeting_increases_legitimacy` into measurable sub-goals and experiments.
+- Decompose `service_catalogs_reduce_red_tape` into measurable sub-goals and experiments.
+- Decompose `grievance_redress_improves_trust` into measurable sub-goals and experiments.
+- Decompose `civic_tech_increases_process_transparency` into measurable sub-goals and experiments.
+- Decompose `emergency_comms_kits_reduce_downtime` into measurable sub-goals and experiments.
+- Decompose `community_drills_increase_readiness` into measurable sub-goals and experiments.
+- Decompose `distributed_inventories_reduce_stockouts` into measurable sub-goals and experiments.
+- Decompose `situational_awareness_dashboards_speed_decisions` into measurable sub-goals and experiments.
+- Decompose `bike_lanes_reduce_congestion` into measurable sub-goals and experiments.
+- Decompose `shared_mobility_increases_access` into measurable sub-goals and experiments.
+- Decompose `safe_parking_hubs_reduce_theft` into measurable sub-goals and experiments.
+- Decompose `hebrew_arabic_english_support_increases_inclusion` into measurable sub-goals and experiments.
+- Decompose `accessibility_by_default_expands_audience` into measurable sub-goals and experiments.
+- Decompose `visual_instructions_reduce_cognitive_load` into measurable sub-goals and experiments.
+- Decompose `urban_heat_islands_increase_cooling_load` into measurable sub-goals and experiments.
+- Decompose `heatwave_action_plans_reduce_mortality` into measurable sub-goals and experiments.
+- Decompose `community_flood_maps_reduce_risk` into measurable sub-goals and experiments.
+- Decompose `air_quality_monitoring_informs_policy` into measurable sub-goals and experiments.
+- Decompose `sprouting_and_microgreens_enable_fast_nutrition` into measurable sub-goals and experiments.
+- Decompose `hydroponics_in_low_cost_totes_is_accessible` into measurable sub-goals and experiments.
+- Decompose `aquaponics_closes_nutrient_loops` into measurable sub-goals and experiments.
+- Decompose `rainwater_capture_reduces_hose_dependency` into measurable sub-goals and experiments.
+- Decompose `greywater_reuse_reduces_fresh_demand` into measurable sub-goals and experiments.
+- Decompose `handwash_stations_reduce_incidents` into measurable sub-goals and experiments.
+- Decompose `color_coded_sanitation_prevents_cross_contamination` into measurable sub-goals and experiments.
+- Decompose `sealed_food_storage_reduces_pests` into measurable sub-goals and experiments.
+- Decompose `cool_chain_preserves_quality` into measurable sub-goals and experiments.
+- Decompose `composting_reduces_waste_and_soil_costs` into measurable sub-goals and experiments.
+- Decompose `waste_sorting_increases_recycling_yield` into measurable sub-goals and experiments.
+- Decompose `noise_abatement_builds_goodwill` into measurable sub-goals and experiments.
+- Decompose `nighttime_light_discipline_reduces_attention` into measurable sub-goals and experiments.
+- Decompose `pv_canopy_generates_daytime_loads` into measurable sub-goals and experiments.
+- Decompose `folding_solar_kits_enable_pop_up_power` into measurable sub-goals and experiments.
+- Decompose `micro_wind_masts_are_site_sensitive` into measurable sub-goals and experiments.
+- Decompose `shore_power_connection_simplifies_startup` into measurable sub-goals and experiments.
+- Decompose `energy_monitoring_enables_load_shedding` into measurable sub-goals and experiments.
+- Decompose `hand_trucks_and_cargo_straps_reduce_injury` into measurable sub-goals and experiments.
+- Decompose `modular_crates_reduce_breakage` into measurable sub-goals and experiments.
+- Decompose `sku_barcodes_reduce_pick_errors` into measurable sub-goals and experiments.
+- Decompose `prepaid_credits_increase_cash_in` into measurable sub-goals and experiments.
+- Decompose `membership_tiers_increase_retention` into measurable sub-goals and experiments.
+- Decompose `gift_cards_expand_customer_base` into measurable sub-goals and experiments.
+- Decompose `service_bundles_increase_average_order_value` into measurable sub-goals and experiments.
+- Decompose `field_estimates_reduce_quote_delays` into measurable sub-goals and experiments.
+- Decompose `return_policy_builds_trust` into measurable sub-goals and experiments.
+- Decompose `warranty_terms_reduce_disputes` into measurable sub-goals and experiments.
+- Decompose `simple_bookkeeping_enables_tax_compliance` into measurable sub-goals and experiments.
+- Decompose `cost_accounting_improves_pricing` into measurable sub-goals and experiments.
+- Decompose `contribution_margin_drives_decisions` into measurable sub-goals and experiments.
+- Decompose `cash_conversion_cycle_controls_runway` into measurable sub-goals and experiments.
+- Decompose `hot_work_zones_prevent_fire_spread` into measurable sub-goals and experiments.
+- Decompose `hearing_protection_reduces_long_term_loss` into measurable sub-goals and experiments.
+- Decompose `heat_stress_protocols_prevent_incidents` into measurable sub-goals and experiments.
+- Decompose `fall_restraint_reduces_injury` into measurable sub-goals and experiments.
+- Decompose `vhf_operations_improve_coordination` into measurable sub-goals and experiments.
+- Decompose `offline_first_docs_reduce_operational_risk` into measurable sub-goals and experiments.
+- Decompose `printable_checklists_reduce_cognitive_load` into measurable sub-goals and experiments.
+- Decompose `low_bandwidth_comms_extend_range` into measurable sub-goals and experiments.
+- Decompose `woodworking_is_low_capex_and_scalable` into measurable sub-goals and experiments.
+- Decompose `plywood_fixtures_speed_jigging` into measurable sub-goals and experiments.
+- Decompose `waterproof_glues_and_sealants_extend_life` into measurable sub-goals and experiments.
+- Decompose `ceramic_slabs_and_tiles_enable_low_cost_surfaces` into measurable sub-goals and experiments.
+- Decompose `manual_pressing_and_slip_casting_are_portable` into measurable sub-goals and experiments.
+- Decompose `low_temp_curing_avoids_heavy_kilns` into measurable sub-goals and experiments.
+- Decompose `fdm_3d_printing_enables_fast_fixture_prototypes` into measurable sub-goals and experiments.
+- Decompose `filament_storage_affects_print_quality` into measurable sub-goals and experiments.
+- Decompose `slicer_profiles_reduce_trial_and_error` into measurable sub-goals and experiments.
+- Decompose `smed_quick_changeovers_increase_throughput` into measurable sub-goals and experiments.
+- Decompose `shadow_boards_reduce_search_time` into measurable sub-goals and experiments.
+- Decompose `kanban_cards_simplify_replenishment` into measurable sub-goals and experiments.
+- Decompose `takt_time_aligns_capacity_with_demand` into measurable sub-goals and experiments.
+- Decompose `preventive_maintenance_reduces_downtime` into measurable sub-goals and experiments.
+- Decompose `oee_tracking_focuses_improvement` into measurable sub-goals and experiments.
+- Decompose `first_article_inspection_reduces_rework` into measurable sub-goals and experiments.
+- Decompose `open_hours_build_local_support` into measurable sub-goals and experiments.
+- Decompose `workshops_for_youth_build_future_pipeline` into measurable sub-goals and experiments.
+- Decompose `community_repair_days_generate_leads` into measurable sub-goals and experiments.
+- Decompose `storm_mooring_plans_reduce_loss` into measurable sub-goals and experiments.
+- Decompose `evacuation_drills_save_lives` into measurable sub-goals and experiments.
+- Decompose `fire_watch_after_hot_work_reduces_incidents` into measurable sub-goals and experiments.
+- Decompose `incident_logging_improves_future_response` into measurable sub-goals and experiments.
+- Decompose `goal_food_and_water_security` into measurable sub-goals and experiments.
+- Decompose `goal_near_silent_operations` into measurable sub-goals and experiments.
+- Decompose `goal_mobile_market_presence` into measurable sub-goals and experiments.
+- Decompose `goal_ultra_low_signature` into measurable sub-goals and experiments.
+- Decompose `capex_ceiling_micro_2k_nis` into measurable sub-goals and experiments.
+- Decompose `headcount_volunteers_part_time` into measurable sub-goals and experiments.
+- Decompose `used_cargo_gear_reduces_capex` into measurable sub-goals and experiments.
+- Decompose `local_lumber_offcuts_reduce_wood_costs` into measurable sub-goals and experiments.
+- Decompose `bulk_filament_packs_reduce_unit_cost` into measurable sub-goals and experiments.
+- Decompose `group_buy_fasteners_reduce_cost` into measurable sub-goals and experiments.
+- Decompose `rainwater_reduces_water_opex` into measurable sub-goals and experiments.
+- Decompose `off_peak_charging_reduces_fuel_costs` into measurable sub-goals and experiments.
+- Decompose `high_productivity_increases_gdp_per_capita` into measurable sub-goals and experiments.
+- Decompose `export_growth_increases_national_resilience` into measurable sub-goals and experiments.
+- Decompose `infrastructure_enables_economic_output` into measurable sub-goals and experiments.
+- Decompose `energy_security_enables_industrial_growth` into measurable sub-goals and experiments.
+- Decompose `water_security_enables_population_resilience` into measurable sub-goals and experiments.
+- Decompose `skill_density_increases_innovation` into measurable sub-goals and experiments.
+- Decompose `israel_has_high_engineering_talent` into measurable sub-goals and experiments.
+- Decompose `israel_has_chronic_water_scarcity` into measurable sub-goals and experiments.
+- Decompose `israel_leads_in_desalination_technology` into measurable sub-goals and experiments.
+- Decompose `israel_energy_mix_is_limited_in_fossil_fuels` into measurable sub-goals and experiments.
+- Decompose `israel_has_abundant_solar_radiation` into measurable sub-goals and experiments.
+- Decompose `israel_imports_most_raw_materials` into measurable sub-goals and experiments.
+- Decompose `israel_exports_high_value_technology` into measurable sub-goals and experiments.
+- Decompose `israel_faces_geopolitical_volatility` into measurable sub-goals and experiments.
+- Decompose `israel_has_high_population_density` into measurable sub-goals and experiments.
+- Decompose `israel_industry_is_constrained_by_land_cost` into measurable sub-goals and experiments.
+- Decompose `hebrew_arabic_english_are_common_trade_languages` into measurable sub-goals and experiments.
+- Decompose `ro_energy_cost_increases_with_salinity` into measurable sub-goals and experiments.
+- Decompose `brine_disposal_requires_environmental_management` into measurable sub-goals and experiments.
+- Decompose `desalination_capex_is_high_but_scalable` into measurable sub-goals and experiments.
+- Decompose `water_storage_increases_emergency_resilience` into measurable sub-goals and experiments.
+- Decompose `lithium_lifepo4_is_safe_if_managed` into measurable sub-goals and experiments.
+- Decompose `dc_dc_modules_enable_voltage_ecosystem` into measurable sub-goals and experiments.
+- Decompose `mppt_controllers_improve_solar_harvest` into measurable sub-goals and experiments.
+- Decompose `solar_pv_costs_have_declined_globally` into measurable sub-goals and experiments.
+- Decompose `battery_monitoring_prevents_deep_discharge` into measurable sub-goals and experiments.
+- Decompose `portfolio_proves_competence` into measurable sub-goals and experiments.
+- Decompose `customs_documentation_must_be_accurate` into measurable sub-goals and experiments.
+- Decompose `lightweight_skus_reduce_shipping_cost` into measurable sub-goals and experiments.
+- Decompose `incident_logs_reduce_future_risk` into measurable sub-goals and experiments.
+
+**KPIs**
+- Cycle time
+- Throughput
+- Quality signal
+
+**Risks**
+- Ambiguous axioms
+- Insufficient measurement
+
+## Truths (normalized axioms)
+- `starship_block_2_payload_to_mars_150_tons_minimum`
+- `starship_block_2_reusable_2030`
+- `orbital_refueling_demonstrated_2028`
+- `methane_isru_producible_at_20_tons_per_synod_with_100_kw`
+- `martian_co2_is_95_percent_of_atmosphere`
+- `martian_water_ice_abundant_below_40cm_in_arcadia_planitia`
+- `drop_stitch_fabric_already_flown_on_starship_ifx_2024`
+- `one_starship_tanker_can_be_converted_to_heat_sealing_factory_in_orbit`
+- `one_40_station_heat_sealing_line_produces_5000_kits_per_26_month_window`
+- `rolled_up_25_person_kit_mass_under_35kg_fits_in_starship_cargo_grid`
+- `inflation_with_martian_co2_in_under_5_minutes_using_rover_compressor`
+- `72_m2_nft_growing_area_sufficient_for_25_humans_3000_kcal_protein_complete`
+- `closed_loop_water_recovery_greater_than_98_percent_with_rh_condensers`
+- `awg_cores_from_scrap_starship_chiller_units`
+- `gravity_feed_eliminates_all_electric_pumps_except_15w_air_lift_blower`
+- `15w_solar_blower_sufficient_for_air_lift_circulation_and_co2_intake`
+- `martian_solar_insolation_590_w_m2_at_equator_noon`
+- `duckweed_doubles_biomass_in_48_hours_under_mars_light`
+- `black_soldier_fly_larvae_convert_food_waste_to_protein_at_20_percent_efficiency`
+- `pre_positioning_in_uncrewed_cargo_is_cheaper_than_just_in_time_delivery`
+- `civilian_owned_kits_can_be_requisitioned_by_mars_council_in_emergency`
+- `economic_viability_in_normal_times_is_required_for_resilience_in_crisis`
+- `export_of_digital_ip_pays_for_hardware_in_peacetime`
+- `perchlorate_soil_can_be_washed_with_2_percent_water`
+- `radiation_dose_on_surface_0.7_msv_per_sol_shielded_by_regolith_or_water`
+- `synodic_period_26_months_determines_launch_windows`
+- `starship_heat_shield_reusable_after_mars_entry`
+- `mars_surface_temperature_minus_60c_average`
+- `one_mars_year_equals_668_sols_axioms`
+- `small_town_scale_is_easier_to_coordinate_than_national_scale`
+- `resilience_requires_local_control_of_water_energy_food_repair_and_comms`
+- `48v_dc_is_the_safest_most_modular_power_spine_for_resilient_infrastructure`
+- `microfactories_and_repair_hubs_are_core_to_self_sufficiency`
+- `dense_skill_mesh_is_more_important_than_single_genius`
+- `israeli_handasai_certificates_are_fast_paths_to_applied_technical_skill`
+- `academic_engineering_degree_is_optional_for_resilience_but_practical_skills_are_not`
+- `knowledge_must_exist_in_printed_and_offline_forms_not_only_in_the_cloud`
+- `every_critical_system_must_have_a_manual_blackout_mode`
+- `redundancy_and_modularity_reduce_system_fragility`
+- `ethical_and_transparent_governance_is_required_for_long_term_stability`
+- `town_must_be_able_to_help_neighbors_not_only_itself`
+- `learning_is_continuous_not_one_time_event`
+- `cross_discipline_understanding_prevents_single_point_of_failure_in_people`
+- `updated_axiomatic_plan_one_factory_feeds_israel`
+- `new_purpose_final_locked`
+- `create_one_single_factory_or_a_dormant_network_of_existing_factories_that_can_be_switched_in_45_days_that_can_the_moment_the_war_start-of-collapse_begins_begin_mass-producing_ultra-cheap_400_600_per_person_backpack-portable_fully-inflatable_gravity-fed_indefinite-food-and-water_kits_capable_of_sustaining_every_single_person_in_israel_indefinitely_using_only_sun_air_and_gravity_after_day_60.`
+- `the_kits_will_be_pre-positioned_or_air-droppable_so_that_within_72_hours_of_the_factory_switch-on_every_family_moshav_yishuv_unit_can_have_sustainable_food_water_security_forever_at_a_total_national_cost_lower_than_one_iron_dome_battery.`
+- `success_israel_never_again_has_empty_supermarkets_or_water_shortages_no_matter_how_long_the_war_or_blockade_lasts.`
+- `core_axioms_all_true_as_of_november_2025`
+- ``
+- `when_any_drop_stitch_inflatable_technology_is_already_mass_produced`
+- `emit_use_only_standard_chinese_drop-stitch_tpu_film_0.8_1.0_mm_1100_dtex_no_custom_materials_no_r_d_dead_end.`
+- `when_any_gravity_plus_air_lift_pump_is_enough`
+- `emit_eliminate_every_electric_pump_except_one_15_20_w_solar_air_blower._the_entire_water_nutrient_loop_must_run_on_air-lift_gravity_only.`
+- `when_any_dead_air_conditioner_condensers_are_identical_to_awg_cores`
+- `emit_design_the_starter_awg_blower_combo_device_to_be_rebuilt_from_scrapped_outdoor_ac_units_tadiran_electra_graveyards_are_the_raw_material_source.`
+- `when_any_one_factory_with_40_heat_sealing_stations_can_produce_1200_kits_per_day`
+- `emit_factory_layout_one_3000_m²_shed_40_sealing_tables_10_cutting_tables_10_workers_per_shift_-_1200_1500_kits_day_on_two_shifts._that_is_1_million_people_fed_in_40_days.`
+- `when_any_total_material_cost_at_100000_units_per_year_is_under_450_600_nis_per_person`
+- `emit_target_landed_cost_550_per_person_including_profit_margin._anything_above_that_is_failure.`
+- `when_any_every_moshav_factory_roof_is_a_potential_pre_position_point`
+- `emit_pre-sell_and_pre-position_20000_50000_kits_in_200_moshavim_factories_now_2026_prices_._when_war_starts_the_rest_of_the_country_drives_there_and_takes_their_kit.`
+- `when_any_this_is_cheaper_than_one_iron_dome_interceptor`
+- `emit_pitch_to_government_philanthropists_one_iron_dome_battery_2_billion_food_water_forever_for_1.5_2_million_israelis._choose.`
+- `drop_stitch_inflatable_technology_is_already_mass_produced_at_under_20_nis_per_m2_in_china_and_used_for_pool_toys`
+- `the_exact_same_drop_stitch_fabric_can_be_made_rigid_enough_for_fish_tanks_and_nft_channels`
+- `gravity_plus_air_lift_pump_is_enough_to_run_aquaponics_forever_with_only_15w_solar`
+- `dead_air_conditioner_condensers_are_identical_to_atmospheric_water_generator_cores`
+- `israel_has_150000_plus_dead_ac_units_sitting_in_yards_right_now`
+- `one_factory_with_40_heat_sealing_stations_can_produce_1200_complete_kits_per_day`
+- `existing_sup_factories_in_china_can_ship_100000_rolls_per_month_at_under_8_nis_per_m2`
+- `local_israeli_plastic_factories_polybid_plazit_gav_yam_can_switch_to_this_fabric_in_weeks`
+- `one_rolled_up_25_person_kit_weighs_under_35kg_and_fits_in_an_ikea_bag`
+- `the_kit_can_be_inflated_by_any_leaf_blower_or_car_tire_pump_in_under_40_seconds`
+- `after_initial_fill_the_system_is_closed_loop_forever_no_electricity_no_water_input_needed`
+- `72_m2_growing_area_inflated_is_enough_for_25_people_3000kcal_plus_full_protein_daily`
+- `total_material_cost_at_100000_units_per_year_is_under_450_600_nis_per_person`
+- `the_factory_requires_zero_new_building_just_rent_an_empty_chicken_coop_and_buy_sealing_machines`
+- `every_moshav_factory_roof_and_parking_lot_in_israel_is_a_potential_pre_position_point`
+- `the_state_will_pay_forced_requisition_the_factory_in_war_and_run_it_24_7_so_we_must_make_it_civilian_owned_and_pre_stocked`
+- `this_is_cheaper_per_person_than_one_iron_dome_interceptor_and_it_never_runs_out`
+- `economic_power_requires_efficiency`
+- `economic_power_requires_scalability`
+- `economic_power_requires_export_value`
+- `economic_power_requires_investment`
+- `economic_channels_enable_resilience`
+- `economic_resilience_attracts_investment`
+- `modularity_enables_scalability`
+- `standardization_reduces_complexity`
+- `standardization_enables_interoperability`
+- `axiomatic_systems_reduce_cognitive_cost`
+- `low_cognitive_cost_enables_mass_adoption`
+- `mass_adoption_increases_market_volume`
+- `market_volume_enables_global_leverage`
+- `local_innovation_drives_export_value`
+- `mini_platforms_are_modular`
+- `mini_platforms_reduce_entry_barriers`
+- `mini_platforms_create_new_economic_channels`
+- `rule_based_growth_is_scalable`
+- `axiomatic_platforms_support_rule_based_growth`
+- `scalable_growth_leads_to_economic_power`
+- `israel_can_build_axiomatic_mini_platforms`
+- `adhd_requires_low_context_switching_systems`
+- `adhd_benefits_from_checklists_and_visuals`
+- `adhd_benefits_from_automations_and_defaults`
+- `few_workflows_reduce_errors`
+- `single_point_of_truth_reduces_rework`
+- `48v_dc_bus_standardizes_power`
+- `48v_standard_parts_minimize_adapter_costs`
+- `industrial_base_requires_power`
+- `offgrid_energy_enables_resilience`
+- `energy_density_constraints_require_sizing`
+- `genset_provides_firm_power`
+- `battery_salvage_enables_low_capex`
+- `lithium_lifepo4_is_safe_and_durable_if_managed`
+- `solar_pv_is_decreasing_in_cost`
+- `wind_mini_turbines_are_site_specific`
+- `mppt_increases_pv_harvest`
+- `dc_dc_buck_modules_enable_voltage_ecosystem`
+- `shunt_metering_enables_energy_accounting`
+- `lockout_tagout_prevents_injury`
+- `thermal_runaway_requires_enclosure_and_venting`
+- `cable_gauge_must_match_current`
+- `surge_protection_reduces_failure_rate`
+- `grounding_and_bonding_increase_safety`
+- `industrial_base_requires_water`
+- `water_storage_increases_resilience`
+- `sediment_and_carbon_filtration_handle_particulates_and_taste`
+- `reverse_osmosis_enables_desalination`
+- `greywater_reuse_reduces_consumption`
+- `bilge_and_deck_drainage_are_critical_at_sea`
+- `pumps_should_match_voltage_ecosystem`
+- `freshwater_generation_enables_independence`
+- `industrial_base_requires_fabrication`
+- `industrial_base_requires_storage`
+- `tooling_standardization_reduces_costs`
+- `containerized_modules_enable_portability`
+- `jigs_enable_repeatability`
+- `shadow_boards_reduce_tool_search_time`
+- `three_d_printing_enables_fast_prototyping`
+- `cnc_router_enables_flatstock_products`
+- `inverter_welder_enables_light_fab`
+- `angle_grinder_is_basic_but_powerful`
+- `drill_press_improves_precision`
+- `ee_bench_enables_troubleshooting`
+- `calibration_reduces_variance`
+- `quality_control_reduces_returns`
+- `sku_libraries_enable_scale`
+- `recycling_enables_material_supply`
+- `salvage_parts_reduce_capex`
+- `scrap_sorting_increases_yield`
+- `copper_and_aluminum_have_liquid_markets`
+- `cells_and_ups_salvage_can_seed_power_systems`
+- `price_sheets_enable_fast_buy_sell`
+- `digital_ip_enables_remote_export`
+- `content_production_scales_with_templates`
+- `recording_workflows_enable_courseware`
+- `documentation_enables_hand_off`
+- `ticketing_enables_accountability`
+- `inventory_tracking_prevents_stockouts`
+- `agents_automate_administration`
+- `pricing_pages_reduce_quote_latency`
+- `dsl_based_checklists_improve_consistency`
+- `version_control_enables_rollback`
+- `ops_telemetry_enables_alerting`
+- `secret_base_prefers_mobility`
+- `prefer_maritime_base`
+- `maritime_platform_enables_mobility`
+- `mobility_enables_stealth`
+- `low_signature_operations_reduce_detection`
+- `salvage_market_provides_low_cost_hulls`
+- `diy_pontoons_enable_ultra_low_cost_float`
+- `mooring_fees_are_repeating_costs`
+- `corrosion_is_continuous_in_marine_env`
+- `nav_rules_compliance_reduces_risk`
+- `anchoring_knowledge_increases_safety`
+- `beam_and_buoyancy_set_deck_payload`
+- `draft_limits_harbor_access`
+- `algae_production_enables_food_and_income`
+- `aquaponics_can_stack_with_microfactories`
+- `nutrients_supply_chain_must_be_secured`
+- `food_handlers_permits_may_be_required`
+- `bio_safety_protocols_reduce_contamination`
+- `microcredentials_enable_skill_compounding`
+- `apprenticeship_accelerates_capability`
+- `axiomatic_curricula_reduce_time_to_mastery`
+- `hands_on_labs_enable_confidence`
+- `stackable_credentials_enable_career_ladders`
+- `remote_courses_reduce_travel_time`
+- `portfolio_proves_competence_better_than_cv`
+- `compliance_reduces_legal_risk`
+- `business_registration_enables_contracting`
+- `vat_registration_required_above_threshold`
+- `import_export_docs_require_accuracy`
+- `ppe_reduces_injury`
+- `fire_suppression_is_mandatory`
+- `co_and_fire_alarms_save_lives`
+- `insurance_mitigates_tail_risks_at_cost`
+- `data_protection_is_customer_trust`
+- `food_safety_requires_hygiene_controls`
+- `electrical_code_compliance_reduces_fire_risk`
+- `low_capital_requires_bootstrapping`
+- `bootstrapping_requires_early_revenue`
+- `service_offerings_have_short_sales_cycles`
+- `repair_services_generate_cashflow`
+- `capex_minimization_increases_runway`
+- `opex_minimization_increases_resilience`
+- `secondhand_tools_reduce_capex`
+- `bulk_buys_reduce_unit_costs`
+- `local_vendors_reduce_lead_times`
+- `currency_is_nis`
+- `price_sensitivity_requires_tiers`
+- `cost_transparency_builds_trust`
+- `microfactories_enable_export`
+- `local_supply_enables_resilience`
+- `packaging_protects_value_in_transit`
+- `customs_documentation_must_match_contents`
+- `lightweight_products_reduce_shipping_cost`
+- `digital_goods_have_zero_shipping_cost`
+- `kitting_enables_fast_fulfillment`
+- `last_mile_delivery_is_bottleneck`
+- `redundancy_enables_resilience`
+- `spares_inventory_decreases_downtime`
+- `backups_prevent_catastrophic_loss`
+- `cybersecurity_needed_for_remote_ops`
+- `storm_preparedness_is_mandatory`
+- `conflict_scenario_requires_contingency`
+- `evacuation_plan_reduces_losses`
+- `modularity_enables_upgradeability`
+- `israel_has_strong_engineering_talent_pool`
+- `ports_network_enables_import_export`
+- `desert_sun_supports_pv`
+- `urban_density_supports_services`
+- `hebrew_arabic_and_english_enable_trade`
+- `local_maker_communities_can_host_workshops`
+- `tourism_drives_repair_and_boat_services`
+- `agtech_has_export_potential`
+- `defense_spinoffs_can_enable_dual_use_tech`
+- `salvage_hull_minimizes_initial_capex`
+- `diy_pontoons_minimize_initial_capex`
+- `shared_jigs_reduce_setup_time`
+- `common_fasteners_reduce_inventory_costs`
+- `energy_efficiency_reduces_opex`
+- `electricity_tariff_variability_increases_opex_risk`
+- `48v_dc_bus_standardizes_power_tooling_standardization_reduces_costs`
+- `containerized_modules_enable_portability_microfactories_enable_export`
+- `bootstrapping_requires_early_revenue_service_offerings_have_short_sales_cycles`
+- `digital_ip_enables_remote_export_documentation_enables_hand_off`
+- `maritime_platform_enables_mobility_prefer_maritime_base`
+- `recycling_enables_material_supply_price_sheets_enable_fast_buy_sell`
+- `apprenticeship_accelerates_capability_hands_on_labs_enable_confidence`
+- `microcredentials_enable_skill_compounding_axiomatic_curricula_reduce_time_to_mastery`
+- `redundancy_enables_resilience_spares_inventory_decreases_downtime`
+- `comms_reliability_enables_remote_ops`
+- `low_bandwidth_workflows_reduce_cost`
+- `offline_first_docs_increase_resilience`
+- `mesh_networks_enable_local_linking`
+- `marine_vhf_improves_safety`
+- `ais_increases_situational_awareness`
+- `starlink_and_lte_enable_hq_uplinks`
+- `self_hosted_services_reduce_vendor_lock_in`
+- `weather_nowcasting_reduces_storm_risk`
+- `barometer_trends_improve_decisions`
+- `local_sea_state_is_path_dependent`
+- `mediterranean_winter_storms_require_preparation`
+- `seasonal_winds_affect_operations`
+- `pilot_charts_improve_route_planning`
+- `ro_desalination_enables_potable_supply`
+- `pre_filters_extend_ro_membrane_life`
+- `chlorination_and_uv_control_biofouling`
+- `brine_discharge_requires_environmental_care`
+- `cold_chain_preserves_value`
+- `blast_chilling_enables_quality`
+- `food_labeling_builds_trust`
+- `haccp_plans_reduce_food_risk`
+- `small_engine_service_has_high_local_demand`
+- `outboard_service_is_revenue_dense`
+- `shaft_alignment_prevents_vibration_failures`
+- `fuel_system_hygiene_prevents_breakdowns`
+- `bearing_and_seal_kits_reduce_downtime`
+- `surface_prep_dominates_paint_quality`
+- `zinc_primer_improves_anti_corrosion`
+- `antifouling_is_site_specific`
+- `salt_spray_accelerates_corrosion`
+- `shop_air_enables_many_tools`
+- `compressor_sizing_must_match_duty_cycle`
+- `chain_hoists_enable_safe_lifting`
+- `gantry_cranes_enable_module_swaps`
+- `waste_stream_segregation_reduces_disposal_costs`
+- `oil_and_battery_disposal_requires_compliance`
+- `solvent_handling_requires_ventilation`
+- `digital_payments_increase_conversion`
+- `marketplaces_expand_reach`
+- `affiliate_channels_reduce_cac`
+- `pricing_tiers_expand_market`
+- `service_sla_increases_trust`
+- `samples_and_demos_reduce_buyer_risk`
+- `portfolio_first_hiring_reduces_mismatch`
+- `peer_assessment_scales_quality_control`
+- `train_the_trainer_scales_education`
+- `bilingual_content_expands_audience`
+- `hebrew_arabic_english_content_reaches_most_customers`
+- `microgrants_reduce_capex_pressure`
+- `municipal_partnerships_reduce_permitting_friction`
+- `community_workshops_build_funnel`
+- `shorepower_cuts_fuel_opex_when_available`
+- `salvage_electronics_supply_spiky_but_cheap`
+- `preventive_maintenance_reduces_long_term_costs`
+- `tool_rental_reduces_upfront_capex`
+- `israel_coastal_sites_vary_in_mooring_costs`
+- `israel_imports_require_clear_hs_codes`
+- `israel_municipal_makerspaces_can_partner`
+- `israel_grant_landscape_changes_annually`
+- `israel_bilingual_markets_value_service_speed`
+- `israel_marina_density_supports_repair_shops`
+- `bench_layouts_reduce_search_time`
+- `kanban_bins_enable_fast_replenishment`
+- `color_coding_reduces_wiring_errors`
+- `fixture_tables_speed_square_frames`
+- `deburring_reduces_field_failures`
+- `powder_coating_requires_oven_and_ventilation`
+- `heat_set_inserts_upgrade_3d_prints`
+- `press_fit_and_rivets_enable_tool_light_assembly`
+- `modular_racking_scales_storage`
+- `lighting_quality_increases_throughput`
+- `barcode_labels_reduce_inventory_mistakes`
+- `pcb_proto_services_enable_small_batches`
+- `solder_paste_and_stencils_speed_reflow`
+- `reflow_hotplate_or_oven_supports_smd`
+- `esd_controls_reduce_component_loss`
+- `test_jigs_reduce_rma`
+- `firmware_bootloaders_reduce_bringup_time`
+- `low_power_design_extends_runtime`
+- `laser_cutters_enable_flat_fast_kitting`
+- `fume_extraction_is_mandatory_for_laser`
+- `plywood_and_hdpe_make_good_jigs`
+- `small_mill_enables_precision_slots`
+- `mini_lathe_allows_shaft_and_bushing_work`
+- `workholding_quality_controls_precision`
+- `coolant_management_extends_tool_life`
+- `threadlockers_reduce_vibration_loosen`
+- `structural_adhesives_enable_lightweight_joins`
+- `adhesive_cure_time_impacts_cycle_time`
+- `common_fasteners_unify_spares`
+- `cell_grading_improves_pack_performance`
+- `spot_welding_requires_safety_practices`
+- `bms_configuration_is_critical`
+- `used_cells_need_capacity_internal_resistance_tests`
+- `pack_enclosures_require_vent_and_clearances`
+- `pick_pack_checklists_reduce_mistakes`
+- `return_merchandise_authorization_simplifies_warranty`
+- `dangerous_goods_have_special_rules`
+- `flat_pack_design_reduces_shipping_volume`
+- `photographic_proof_reduces_disputes`
+- `packing_slips_speed_customs_clearance`
+- `modular_tent_structures_expand_covered_space`
+- `used_market_is_deep_for_tools_and_racks`
+- `seasonal_tourism_fluctuations_affect_service_demand`
+- `collaboration_with_schools_creates_apprentice_funnel`
+- `community_service_days_build_reputation`
+- `quiet_hours_reduce_complaints`
+- `brand_consistency_increases_conversion`
+- `before_after_media_builds_trust`
+- `response_time_is_a_sales_lever`
+- `live_demos_convert_skeptics`
+- `warranty_policies_reduce_hesitation`
+- `referral_programs_compound_growth`
+- `quoting_templates_reduce_latency`
+- `staged_payments_reduce_risk`
+- `deposits_reduce_no_shows`
+- `cash_envelope_for_small_purchases_speeds_ops`
+- `unit_economics_reviews_prevent_unprofitable_skus`
+- `monthly_kpi_review_improves_focus`
+- `msds_sheets_must_be_accessible`
+- `toolbox_talks_reduce_incidents`
+- `near_miss_logs_improve_prevention`
+- `portable_appliances_require_periodic_check`
+- `eye_ear_respirator_protection_prevents_injury`
+- `ladder_and_work_at_height_rules_reduce_falls`
+- `major_ports_support_import_export`
+- `tech_communities_enable_meetups`
+- `marina_rules_vary_by_local_authority`
+- `makerspace_partnerships_offer_shared_equipment`
+- `reused_shipping_containers_can_form_workbays`
+- `used_racking_and_benches_are_cost_effective`
+- `local_printers_offer_label_runs`
+- `foam_inserts_reduce_shipping_damage`
+- `qr_codes_link_products_to_docs`
+- `whatsapp_and_telegram_groups_reach_customers`
+- `photo_lightbox_improves_listing_quality`
+- `micro_donations_can_seed_community_projects`
+- `refurb_market_absorbs_alternators_ups_and_tools`
+- `seasonal_workshops_generate_spikes_in_sales`
+- `drone_mapping_rules_exist`
+- `coatings_and_painting_involve_isocyanates`
+- `pv48_arrays_reduce_fuel_use`
+- `wind_microturbine_adds_night_generation`
+- `tilt_adjustment_increases_pv_yield`
+- `mppt_controllers_optimize_pv_harvest`
+- `dc_dc_modules_enable_multi_voltage_tools`
+- `battery_monitoring_prevents_surprises`
+- `low_resistance_connections_reduce_losses`
+- `busbar_covering_prevents_accidents`
+- `energy_logging_enables_load_planning`
+- `good_ground_tackle_prevents_drag`
+- `twin_anchor_veering_reduces_swing`
+- `snubbers_reduce_shock_loads`
+- `chafe_protection_extends_line_life`
+- `regular_hull_inspection_prevents_water_ingress`
+- `bilge_alarms_reduce_flooding_risk`
+- `antifoul_schedule_reduces_fuel_burn`
+- `light_discipline_reduces_nuisance`
+- `sound_damping_reduces_complaints`
+- `visual_tidiness_reduces_attention`
+- `scheduled_ops_reduce_disturbance`
+- `abc_extinguishers_reduce_total_fire_risk`
+- `lithium_fire_kit_is_specialized`
+- `first_aid_training_improves_outcomes`
+- `lockout_tagout_prevents_shock`
+- `hot_work_permits_reduce_fire_incidents`
+- `spill_kits_limit_environmental_damage`
+- `simple_boms_reduce_procurement_latency`
+- `three_vendor_quotes_reduce_cost`
+- `preferred_parts_lists_reduce_variation`
+- `consumable_usage_logs_enable_forecasting`
+- `min_max_stock_levels_reduce_stockouts`
+- `local_substitutes_reduce_import_delays`
+- `module_checkouts_prove_skill`
+- `capstone_projects_demonstrate_readiness`
+- `peer_review_increases_credibility`
+- `public_portfolio_increases_sales`
+- `trainers_need_curriculum_checklists`
+- `unit_hour_margin_drives_priorities`
+- `skus_need_clear_contribution_margins`
+- `break_even_targets_focus_execution`
+- `simple_retainer_models_smooth_cashflow`
+- `inventory_turns_measure_efficiency`
+- `escrow_reduces_large_job_risk`
+- `facebook_marketplace_and_local_groups_generate_leads`
+- `marina_bulletin_boards_are_effective`
+- `in_person_demos_trump_ads_for_technical_sales`
+- `field_service_radius_limits_response_time`
+- `evening_and_weekend_windows_increase_access_to_customers`
+- `short_howto_videos_improve_conversion`
+- `qr_labels_on_gear_link_to_howtos`
+- `reply_within_two_hours_wins_jobs`
+- `even_small_warranties_reduce_buyer_anxiety`
+- `on_site_demos_generate_referrals`
+- `photos_with_part_numbers_reduce_mistakes`
+- `morning_pickups_reduce_turnaround_time`
+- `evening_dropoffs_increase_customer_convenience`
+- `loaner_tools_keep_jobs_moving`
+- `smart_upselling_increases_basket_size`
+- `batching_jobs_reduces_setup_time`
+- `single_piece_flow_reduces_wip`
+- `jigs_and_fixtures_increase_throughput`
+- `color_coded_status_boards_reduce_coordination_cost`
+- `daily_standup_reveals_blockers`
+- `visual_work_instructions_reduce_errors`
+- `preflight_checklists_reduce_rework`
+- `post_job_reviews_improve_quality`
+- `kanban_limits_reduce_overload`
+- `timeboxing_helps_adhd_focus`
+- `access_control_reduces_losses`
+- `cctv_deterrence_reduces_theft`
+- `tool_checkout_logs_reduce_loss`
+- `asset_tags_enable_tracking`
+- `backups_prevent_data_loss`
+- `immutable_logs_increase_accountability`
+- `privacy_respect_builds_trust`
+- `frp_is_light_but_needs_ventilation`
+- `steel_is_strong_but_heavy`
+- `aluminum_is_corrosion_resistant_but_pricey`
+- `tig_allows_precision_on_aluminum`
+- `stick_welding_is_rugged_and_cheap`
+- `migsaves_time_on_thin_steel`
+- `abrasive_selection_impacts_finish_quality`
+- `powder_coating_improves_durability_if_available`
+- `hot_dip_galvanizing_extends_steel_life`
+- `tender_boat_increases_reach`
+- `electric_trolling_motors_cut_noise`
+- `folding_davits_enable_easy_launch`
+- `portable_sonar_aids_shallow_route_planning`
+- `job_board_aligns_team`
+- `customer_crm_increases_repeat_business`
+- `quote_to_invoice_pipeline_reduces_latency`
+- `sms_whatsapp_updates_reduce_no_shows`
+- `after_action_reports_feed_portfolio`
+- `multi_use_tools_reduce_capex`
+- `offpeak_purchasing_reduces_cost`
+- `bulk_buy_for_consumables_reduces_unit_price`
+- `freecycle_and_surplus_markets_cut_costs`
+- `prevent_stockouts_avoids_expedited_fees`
+- `fleet_fuel_cards_reduce_price_variance`
+- `tool_calibration_extends_service_life`
+- `welding_fumes_require_respiratory_control`
+- `hearing_protection_prevents_hearing_loss`
+- `eye_protection_is_mandatory`
+- `glove_selection_matches_task`
+- `material_sds_must_be_available`
+- `corner_protectors_reduce_shipping_damage`
+- `void_fill_and_strapping_stabilize_loads`
+- `reusable_crates_reduce_long_term_costs`
+- `shipment_insurance_mitigates_large_orders`
+- `qr_codes_on_gear_link_portfolio`
+- `before_after_shorts_drive_leads`
+- `in_person_referrals_outperform_ads`
+- `service_memberships_create_recurring_revenue`
+- `maintenance_contracts_smooth_cashflow`
+- `reverse_osmosis_removes_salts_and_contaminants`
+- `pre_filtration_extends_ro_membrane_life`
+- `backwash_cycles_restore_filter_flow`
+- `activated_carbon_removes_organics_and_odors`
+- `uv_sterilization_reduces_bioburden`
+- `tds_and_ph_testing_enable_water_quality_control`
+- `membrane_scaling_reduces_ro_efficiency`
+- `antiscalant_dosing_reduces_scaling`
+- `high_pressure_pumps_require_safe_plumbing`
+- `permeate_flush_extends_membrane_life`
+- `storage_tank_headspace_needs_vent_and_baffles`
+- `ras_biofilters_convert_ammonia_to_nitrate`
+- `dissolved_oxygen_is_critical_for_fish_health`
+- `aeration_and_circulation_reduce_dead_zones`
+- `ammonia_spikes_cause_fish_mortality`
+- `feed_rate_controls_waste_and_growth`
+- `quarantine_tanks_reduce_disease_risk`
+- `backup_air_and_power_prevent_losses`
+- `hydroponics_absorb_nitrates_from_ras`
+- `water_temperature_controls_growth_rate`
+- `harvest_scheduling_balances_cashflow`
+- `cold_chain_preserves_quality`
+- `ice_making_supports_cold_chain`
+- `sanitation_sops_reduce_contamination`
+- `food_contact_surfaces_require_specific_cleaners`
+- `glove_and_hair_control_reduce_contamination`
+- `lot_coding_enables_traceability`
+- `ais_receiver_improves_situational_awareness`
+- `radar_reflector_increases_visibility`
+- `epirb_and_plb_improve_rescue_outcomes`
+- `storm_mooring_plans_reduce_damage`
+- `weight_distribution_affects_stability`
+- `free_surface_effect_reduces_stability_in_tanks`
+- `periodic_weight_audits_reduce_list_issues`
+- `line_handling_training_prevents_injury`
+- `local_first_knowledge_bases_reduce_outage_risk`
+- `oplog_event_streams_enable_replay`
+- `append_only_logs_are_audit_friendly`
+- `minimal_access_policies_reduce_breach_surface`
+- `regular_patching_reduces_exposure`
+- `endpoint_encryption_protects_data_at_rest`
+- `nas_with_raid_increases_resilience`
+- `mesh_networks_extend_local_comms`
+- `uplink_failover_reduces_downtime`
+- `dashboards_turn_logs_into_decisions`
+- `cheap_sensors_enable_breadth`
+- `calibration_routines_increase_sensor_trust`
+- `sensor_fusion_improves_alarm_quality`
+- `thresholds_and_hysteresis_reduce_alarm_chatter`
+- `runtime_counters_predict_maintenance`
+- `environmental_logging_informs_corrosion_control`
+- `energy_forecasting_improves_genset_scheduling`
+- `kpi_dashboards_align_priorities`
+- `one_button_start_sequences_reduce_context_switch`
+- `visual_checklists_reduce_executive_load`
+- `work_zones_reduce_tool_search`
+- `batching_admin_in_time_boxes_protects_deep_work`
+- `two_hour_rule_for_replies_keeps_pipeline_warm`
+- `done_definition_reduces_rework`
+- `cooperative_purchasing_reduces_unit_cost`
+- `barter_and_timebank_expand_capacity`
+- `equipment_auctions_offer_low_capex_assets`
+- `buyback_programs_increase_customer_trust`
+- `refurb_trade_in_feeds_material_supply`
+- `pilot_projects_unlock_partner_support`
+- `subscription_bundles_create_recurring_revenue`
+- `micro_courses_convert_skill_to_income`
+- `course_outlines_reduce_production_time`
+- `problem_solution_templates_speed_content_creation`
+- `portfolio_reviews_increase_student_enrollment`
+- `marketplace_listings_expand_distribution`
+- `affiliate_links_create_secondary_income`
+- `change_logs_improve_traceability`
+- `versioned_sops_reduce_confusion`
+- `incident_response_checklists_reduce_damage`
+- `data_retention_policies_reduce_liability`
+- `photos_and_serials_enable_warranty_claims`
+- `parametric_cad_reduces_iteration`
+- `cam_postprocessors_enable_toolpath_portability`
+- `outsourcing_heavy_processes_reduces_initial_capex`
+- `cnc_plasma_enables_fast_plate_cutting`
+- `cnc_router_enables_wood_and_composites`
+- `laser_cutting_accelerates_templates`
+- `fixture_tables_increase_precision`
+- `tube_bending_expands_skus`
+- `press_brake_enables_sheet_metal_products`
+- `sandblasting_improves_coating_adhesion`
+- `powder_coating_requires_clean_dry_metal`
+- `oven_curing_improves_coating_durability`
+- `anodizing_improves_corrosion_resistance`
+- `waterjet_cuts_thick_materials_but_is_costly`
+- `fastener_standardization_reduces_sku_count`
+- `gauged_drawings_reduce_shop_floor_errors`
+- `nesting_optimizers_reduce_material_scrap`
+- `moisture_meters_enable_osmosis_assessment`
+- `epoxy_repairs_offer_superior_bond_in_wet_hull_contexts`
+- `vacuum_bagging_improves_laminate_quality`
+- `peel_ply_simplifies_surface_finish`
+- `core_replacement_restores_panel_stiffness`
+- `scarf_joints_increase_repair_strength`
+- `temperature_control_enables_consistent_cure`
+- `post_cure_improves_mechanical_properties`
+- `fairing_compounds_reduce_time_to_paint`
+- `gelcoat_repairs_require_uv_stable_topcoat`
+- `48v_ecosystem_simplifies_ev_conversions`
+- `ebike_kits_offer_high_roi`
+- `brushless_motors_require_esc`
+- `regen_braking_recovers_energy_in_hills`
+- `battery_bms_protects_cells`
+- `cell_grading_and_matching_balances_packs`
+- `spot_welding_requires_eye_and_fire_safety`
+- `enclosures_require_ip_rating_for_splash`
+- `legal_speed_limits_vary_by_jurisdiction`
+- `registration_and_insurance_require_compliance`
+- `dc_high_current_requires_clear_procedures`
+- `drone_photogrammetry_maps_assets_and_damage`
+- `thermal_imaging_identifies_hotspots_and_moisture`
+- `preplanned_flights_reduce_risk`
+- `uas_operations_are_governed_by_local_regulations`
+- `maintain_visual_line_of_sight`
+- `wind_limits_reduce_operational_window`
+- `battery_swap_turnaround_increases_uptime`
+- `checklists_prevent_flyaways`
+- `template_rendering_accelerates_documentation`
+- `barcodes_link_assets_to_records`
+- `change_requests_control_release`
+- `lot_tracking_links_materials_to_jobs`
+- `job_cards_reduce_context_switching`
+- `starter_max_pack_limits_scope_and_speeds_iteration`
+- `quarterly_refactors_reduce_config_entropy`
+- `module_caps_prevent_uncontrolled_sprawl`
+- `micropayments_enable_nanopricing`
+- `escrow_reduces_counterparty_risk`
+- `kyc_and_aml_compliance_are_required`
+- `prepaid_vouchers_expand_access`
+- `community_savings_groups_increase_resilience`
+- `merchant_qr_codes_reduce_pos_costs`
+- `subscription_models_increase_predictable_cashflow`
+- `reuse_salvaged_equipment_cuts_capex`
+- `shared_spaces_reduce_rent`
+- `cloud_free_tiers_reduce_initial_opex`
+- `volunteer_hours_reduce_labor_costs`
+- `community_mesh_networks_increase_resilience`
+- `sms_gateways_expand_reach`
+- `offline_first_design_reduces_failure_modes`
+- `multilingual_interfaces_increase_adoption`
+- `open_source_tools_reduce_vendor_lock_in`
+- `device_kiosks_reduce_digital_divide`
+- `radio_repeaters_extend_coverage`
+- `local_cdn_caches_reduce_bandwidth_costs`
+- `drip_irrigation_maximizes_water_efficiency`
+- `desert_greenhouses_extend_growing_season`
+- `hydroponics_increases_yield_per_area`
+- `aquaponics_recovers_nutrients`
+- `seed_saving_preserves_local_varieties`
+- `cold_chain_reduces_food_waste`
+- `soil_testing_guides_fertilizer_use`
+- `biochar_improves_soil_and_sequesters_carbon`
+- `point_of_use_filtration_reduces_waterborne_disease`
+- `chlorination_is_cost_effective`
+- `small_ro_units_enable_brackish_desalination`
+- `rainwater_harvesting_reduces_utility_dependency`
+- `leak_detection_reduces_losses`
+- `water_safety_plans_reduce_incidents`
+- `rooftop_pv_reduces_opex`
+- `micro_inverters_simplify_installation`
+- `battery_swapping_increases_uptime`
+- `demand_response_flattens_peaks`
+- `solar_cookers_reduce_fuel_costs`
+- `efficient_appliances_reduce_load`
+- `48v_dc_bus_standardizes_power_linkable_with_earlier_axioms`
+- `telemedicine_extends_care_reach`
+- `screening_catches_conditions_early`
+- `cold_chain_vaccines_require_temperature_logging`
+- `first_aid_training_increases_survival`
+- `mental_health_first_aid_reduces_crises`
+- `community_health_workers_increase_coverage`
+- `data_privacy_in_health_is_critical`
+- `competency_maps_align_training_to_jobs`
+- `bootcamps_speed_employability`
+- `portfolio_projects_signal_skill`
+- `public_libraries_expand_access`
+- `mobile_classrooms_reach_remote_populations`
+- `microcredentials_enable_skill_compounding_cross-link`
+- `basic_cyber_hygiene_reduces_breach_risk`
+- `offline_backups_prevent_ransomware_loss`
+- `privacy_by_design_builds_trust`
+- `open_data_enables_civic_innovation`
+- `data_lakes_enable_cross_domain_insight`
+- `asset_inventories_reduce_shadow_it`
+- `least_privilege_reduces_blast_radius`
+- `shared_logistics_reduce_unit_costs`
+- `last_mile_lockers_improve_delivery_reliability`
+- `portable_tools_enable_pop_up_workshops`
+- `plastics_recycling_enables_local_manufacturing`
+- `modular_tooling_reduces_changeover_time`
+- `design_for_disassembly_enables_reuse`
+- `remanufacturing_creates_high_margin_exports`
+- `modular_housing_speeds_deployment`
+- `thermal_insulation_reduces_energy_load`
+- `passive_cooling_reduces_opex`
+- `seismic_bracing_reduces_collapse_risk`
+- `prefab_panels_reduce_site_time`
+- `cultural_routes_increase_local_spend`
+- `heritage_digitization_preserves_assets`
+- `festivals_drive_seasonal_revenue`
+- `bilingual_signage_increases_tourist_satisfaction`
+- `community_guides_create_jobs`
+- `participatory_budgeting_increases_legitimacy`
+- `service_catalogs_reduce_red_tape`
+- `grievance_redress_improves_trust`
+- `civic_tech_increases_process_transparency`
+- `emergency_comms_kits_reduce_downtime`
+- `community_drills_increase_readiness`
+- `distributed_inventories_reduce_stockouts`
+- `situational_awareness_dashboards_speed_decisions`
+- `bike_lanes_reduce_congestion`
+- `shared_mobility_increases_access`
+- `safe_parking_hubs_reduce_theft`
+- `hebrew_arabic_english_support_increases_inclusion`
+- `accessibility_by_default_expands_audience`
+- `visual_instructions_reduce_cognitive_load`
+- `urban_heat_islands_increase_cooling_load`
+- `heatwave_action_plans_reduce_mortality`
+- `community_flood_maps_reduce_risk`
+- `air_quality_monitoring_informs_policy`
+- `sprouting_and_microgreens_enable_fast_nutrition`
+- `hydroponics_in_low_cost_totes_is_accessible`
+- `aquaponics_closes_nutrient_loops`
+- `rainwater_capture_reduces_hose_dependency`
+- `greywater_reuse_reduces_fresh_demand`
+- `handwash_stations_reduce_incidents`
+- `color_coded_sanitation_prevents_cross_contamination`
+- `sealed_food_storage_reduces_pests`
+- `cool_chain_preserves_quality`
+- `composting_reduces_waste_and_soil_costs`
+- `waste_sorting_increases_recycling_yield`
+- `noise_abatement_builds_goodwill`
+- `nighttime_light_discipline_reduces_attention`
+- `pv_canopy_generates_daytime_loads`
+- `folding_solar_kits_enable_pop_up_power`
+- `micro_wind_masts_are_site_sensitive`
+- `shore_power_connection_simplifies_startup`
+- `energy_monitoring_enables_load_shedding`
+- `hand_trucks_and_cargo_straps_reduce_injury`
+- `modular_crates_reduce_breakage`
+- `sku_barcodes_reduce_pick_errors`
+- `prepaid_credits_increase_cash_in`
+- `membership_tiers_increase_retention`
+- `gift_cards_expand_customer_base`
+- `service_bundles_increase_average_order_value`
+- `field_estimates_reduce_quote_delays`
+- `return_policy_builds_trust`
+- `warranty_terms_reduce_disputes`
+- `simple_bookkeeping_enables_tax_compliance`
+- `cost_accounting_improves_pricing`
+- `contribution_margin_drives_decisions`
+- `cash_conversion_cycle_controls_runway`
+- `hot_work_zones_prevent_fire_spread`
+- `hearing_protection_reduces_long_term_loss`
+- `heat_stress_protocols_prevent_incidents`
+- `fall_restraint_reduces_injury`
+- `vhf_operations_improve_coordination`
+- `offline_first_docs_reduce_operational_risk`
+- `printable_checklists_reduce_cognitive_load`
+- `low_bandwidth_comms_extend_range`
+- `woodworking_is_low_capex_and_scalable`
+- `plywood_fixtures_speed_jigging`
+- `waterproof_glues_and_sealants_extend_life`
+- `ceramic_slabs_and_tiles_enable_low_cost_surfaces`
+- `manual_pressing_and_slip_casting_are_portable`
+- `low_temp_curing_avoids_heavy_kilns`
+- `fdm_3d_printing_enables_fast_fixture_prototypes`
+- `filament_storage_affects_print_quality`
+- `slicer_profiles_reduce_trial_and_error`
+- `smed_quick_changeovers_increase_throughput`
+- `shadow_boards_reduce_search_time`
+- `kanban_cards_simplify_replenishment`
+- `takt_time_aligns_capacity_with_demand`
+- `preventive_maintenance_reduces_downtime`
+- `oee_tracking_focuses_improvement`
+- `first_article_inspection_reduces_rework`
+- `open_hours_build_local_support`
+- `workshops_for_youth_build_future_pipeline`
+- `community_repair_days_generate_leads`
+- `storm_mooring_plans_reduce_loss`
+- `evacuation_drills_save_lives`
+- `fire_watch_after_hot_work_reduces_incidents`
+- `incident_logging_improves_future_response`
+- `goal_food_and_water_security`
+- `goal_near_silent_operations`
+- `goal_mobile_market_presence`
+- `goal_ultra_low_signature`
+- `capex_ceiling_micro_2k_nis`
+- `headcount_volunteers_part_time`
+- `used_cargo_gear_reduces_capex`
+- `local_lumber_offcuts_reduce_wood_costs`
+- `bulk_filament_packs_reduce_unit_cost`
+- `group_buy_fasteners_reduce_cost`
+- `rainwater_reduces_water_opex`
+- `off_peak_charging_reduces_fuel_costs`
+- `high_productivity_increases_gdp_per_capita`
+- `export_growth_increases_national_resilience`
+- `infrastructure_enables_economic_output`
+- `energy_security_enables_industrial_growth`
+- `water_security_enables_population_resilience`
+- `skill_density_increases_innovation`
+- `israel_has_high_engineering_talent`
+- `israel_has_chronic_water_scarcity`
+- `israel_leads_in_desalination_technology`
+- `israel_energy_mix_is_limited_in_fossil_fuels`
+- `israel_has_abundant_solar_radiation`
+- `israel_imports_most_raw_materials`
+- `israel_exports_high_value_technology`
+- `israel_faces_geopolitical_volatility`
+- `israel_has_high_population_density`
+- `israel_industry_is_constrained_by_land_cost`
+- `hebrew_arabic_english_are_common_trade_languages`
+- `ro_energy_cost_increases_with_salinity`
+- `brine_disposal_requires_environmental_management`
+- `desalination_capex_is_high_but_scalable`
+- `water_storage_increases_emergency_resilience`
+- `lithium_lifepo4_is_safe_if_managed`
+- `dc_dc_modules_enable_voltage_ecosystem`
+- `mppt_controllers_improve_solar_harvest`
+- `solar_pv_costs_have_declined_globally`
+- `battery_monitoring_prevents_deep_discharge`
+- `portfolio_proves_competence`
+- `customs_documentation_must_be_accurate`
+- `lightweight_skus_reduce_shipping_cost`
+- `incident_logs_reduce_future_risk`
