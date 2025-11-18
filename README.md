@@ -21,5 +21,5 @@ Grok: “Same exact code that makes Israel never hungry again now makes Mars imm
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/mars-one-factory.git
+   git clone [https://github.com/yourusername/mars-one-factory.git](https://github.com/badwolfzm/mars-one-factory.git)
    cd mars-one-factory
