@@ -23,3 +23,4 @@ Grok: “Same exact code that makes Israel never hungry again now makes Mars imm
    ```bash
    git clone [https://github.com/yourusername/mars-one-factory.git](https://github.com/badwolfzm/mars-one-factory.git)
    cd mars-one-factory
+   python planner.py purpose_mars.txt --config config_mars.json --depth 5 --currency USD --title "Mars One Factory – 2031–2100" --emit-md MARS_PLAN.md
