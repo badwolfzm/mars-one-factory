@@ -1,8 +1,7 @@
 # Axiomatic Plan
 
 ## Purpose / Summary
-PURPOSE
-Create one single orbital factory (or a dormant network of Starship tankers that can be activated in <90 days) that begins mass-producing $100–150/person, backpack-portable, fully-inflatable, gravity-fed, indefinite-life-support kits capable of sustaining every human on Mars indefinitely using only Martian CO₂, water-ice, sunlight, and gravity after sol 60.
+Create one single orbital factory (or a dormant network of Starship tankers that can be activated in under 90 days) that begins mass-producing $100–150/person, backpack-portable, fully-inflatable, gravity-fed, indefinite-life-support kits capable of sustaining every human on Mars indefinitely using only Martian CO₂, water-ice, sunlight, and gravity after sol 60.
 Kits are pre-landed with every uncrewed cargo flight starting 2031.
 Success = No human on Mars ever dies of starvation, dehydration, or O₂ depletion — no matter how many ships are lost or how long Earth comms are down.
 Total cost for 1 million humans < cost of three orbital refueling flights.
@@ -40,11 +39,11 @@ Total cost for 1 million humans < cost of three orbital refueling flights.
 - Decompose `economic_viability_in_normal_times_is_required_for_resilience_in_crisis` into measurable sub-goals and experiments.
 - Decompose `export_of_digital_ip_pays_for_hardware_in_peacetime` into measurable sub-goals and experiments.
 - Decompose `perchlorate_soil_can_be_washed_with_2_percent_water` into measurable sub-goals and experiments.
-- Decompose `radiation_dose_on_surface_0.7_msv_per_sol_shielded_by_regolith_or_water` into measurable sub-goals and experiments.
+- Decompose `radiation_dose_on_surface_0_7_msv_per_sol_shielded_by_regolith_or_water` into measurable sub-goals and experiments.
 - Decompose `synodic_period_26_months_determines_launch_windows` into measurable sub-goals and experiments.
 - Decompose `starship_heat_shield_reusable_after_mars_entry` into measurable sub-goals and experiments.
 - Decompose `mars_surface_temperature_minus_60c_average` into measurable sub-goals and experiments.
-- Decompose `one_mars_year_equals_668_sols_axioms` into measurable sub-goals and experiments.
+- Decompose `one_mars_year_equals_668_sols` into measurable sub-goals and experiments.
 - Decompose `small_town_scale_is_easier_to_coordinate_than_national_scale` into measurable sub-goals and experiments.
 - Decompose `resilience_requires_local_control_of_water_energy_food_repair_and_comms` into measurable sub-goals and experiments.
 - Decompose `48v_dc_is_the_safest_most_modular_power_spine_for_resilient_infrastructure` into measurable sub-goals and experiments.
@@ -891,11 +890,11 @@ Total cost for 1 million humans < cost of three orbital refueling flights.
 - `economic_viability_in_normal_times_is_required_for_resilience_in_crisis`
 - `export_of_digital_ip_pays_for_hardware_in_peacetime`
 - `perchlorate_soil_can_be_washed_with_2_percent_water`
-- `radiation_dose_on_surface_0.7_msv_per_sol_shielded_by_regolith_or_water`
+- `radiation_dose_on_surface_0_7_msv_per_sol_shielded_by_regolith_or_water`
 - `synodic_period_26_months_determines_launch_windows`
 - `starship_heat_shield_reusable_after_mars_entry`
 - `mars_surface_temperature_minus_60c_average`
-- `one_mars_year_equals_668_sols_axioms`
+- `one_mars_year_equals_668_sols`
 - `small_town_scale_is_easier_to_coordinate_than_national_scale`
 - `resilience_requires_local_control_of_water_energy_food_repair_and_comms`
 - `48v_dc_is_the_safest_most_modular_power_spine_for_resilient_infrastructure`
